@@ -20,6 +20,9 @@ redirect_from:
 Welcome to my personal website!  I am Huichi Zhou (周辉池), a Year 4 undergraduate at NCEPU.
 =====
 
+I am an incoming MRes student at Imperial College London for the 2024-2025 academic year.
+
+
 # 💡 Research Interest
 
 - Adversarial Attack and Defense

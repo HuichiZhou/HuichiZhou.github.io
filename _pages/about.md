@@ -17,65 +17,56 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website!  I am Dongping Chen (陈东平), a Year 3 undergraduate at [HUST](https://hust.edu.cn).
+Welcome to my personal website!  I am Huichi Zhou (周辉池), a Year 4 undergraduate at NCEPU.
 =====
-At present, I have the privilege of being a visiting student to LAIR, where I work with Professors [Lichao Sun](https://lichao-sun.github.io/) at Lehigh University and [Yao Wan](http://wanyao.me/) at HUST. Prior to this, my academic journey has also been enriched by a collaboration with [Prof. Bolong Zheng](https://bolongzheng.com/) at HUST and a Harvard summer workshop with [Prof. Pavlos Protopapas](https://seas.harvard.edu/person/pavlos-protopapas).
 
-My academic and research interests are deeply rooted in the latest advancements in Multi-modal perception, Diffusion models, LLM calibration and trustworthy AI. 
-
-My resume and transcripts can be viewed at [Here](Resume.pdf).
 # 💡 Research Interest
 
-- Multi-modal Perception: diffusion models, multi-modal large language model (MLLM), etc.
-- LLM-based Agents: tool usage, efficiency and utility.
-- Trustworthy AI: safety, truthfulness, fairness, robustness, and privacy of AI model.
+- Adversarial Attack and Defense
+- Natural Language Processing
   
-  
+
 # 🔥 News
-- *2024.05*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! Congratulations to [Ruoxi](https://scholar.google.com/citations?user=F7cDYF0AAAAJ), Shilin, [Yaochen](https://scholar.google.com/citations?hl=en&user=pcqtbQEAAAAJ), Yinuo, [Huichi](https://scholar.google.com/citations?user=1IJyxpUAAAAJ), [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en)!
-- *2024.03*: &nbsp;🎉🎉 One paper has been accepted by NAACL 2024! Congratulations to [Qihui](https://scholar.google.com/citations?user=ZdgtY0EAAAAJ&hl=en), [Chujie](https://flossiee.github.io/) and [Yue](https://howiehwong.github.io/)! 
-- *2024.02*: &nbsp;🎉🎉 This summer, I will start my summer intern with Senior [PhD. Jieyu](https://jieyuz2.github.io/) and [Prof. Ranjay Krishna](https://ranjaykrishna.com/index.html) in University of Washington.
+
+- *2024.05*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! One paper has been accepted by ACL 2024 Findings! 
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ACL2024.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models** [[PDF]](https://drive.google.com/file/d/1wq4iaSicSBiljMUt7lENMPOOLneZj4EO/view?usp=drive_link) 
+
+**Huichi Zhou** \*, Zhaoyang Wang \*, Hongtao Wang , Dongping Chen, Wenhan Mu, Fangyuan Zhang
+
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images/mllm-judge.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark** [[PDF]](https://arxiv.org/abs/2402.04788) [[Github]](https://github.com/Dongping-Chen/MLLM-Judge) [[Website]](https://mllm-judge.github.io/)
 
-**Dongping Chen** \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, Huichi Zhou \*, Qihui Zhang \*, Pan Zhou, Yao Wan, Lichao Sun
-
+Dongping Chen \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, **Huichi Zhou** \*, Qihui Zhang \*, Pan Zhou, Yao Wan, Lichao Sun
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NAACL 2024</div><img src='images/mixcase.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/MPAT.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**LLM-as-a-Coauthor: The Challenges of Detecting LLM-Human Mixcase** [[PDF]](https://arxiv.org/abs/2401.05952) [[Github]](https://github.com/Dongping-Chen/MixSet)
+**MPAT: Building Robust Deep Neural Networks against Textual Adversarial Attacks** [[PDF]](https://arxiv.org/abs/2402.18792) 
 
-Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhenyang Sun, Shilin Zhang, Weiye Li, Zhengyan Fu, Yao Wan, Lichao Sun
+Fangyuan Zhang, **Huichi Zhou**, Shuangjiao Li, Hongtao Wang
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/Aggregate.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Aggregate, Decompose, and Fine-Tune: A Simple Yet Effective Factor-Tuning Method for Vision Transformer** [[PDF]](https://arxiv.org/abs/2311.06749) [[Github]](https://github.com/Dongping-Chen/EFFT-EFfective-Factor-Tuning)
-
-**Dongping Chen** 
-
-- Notice: This work was completed in-person with personal server before internship with Professors [Lichao Sun](https://lichao-sun.github.io/) and [Yao Wan](http://wanyao.me/).
-</div>
-</div>
-
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+# 🎖 Honors and Awards
+- *2023* National Scholarship (Top 1%)
 
 # 📖 Educations
-- *2021.09 - 2025.06 (expected)*, BEng.,  Huazhong University of Science and Technology. 
-<!-- - *2015.09 - 2021.06*, Zhixin High School, Guangzhou, China.  -->
+- *2020.09 - 2024.06 (expected)*, BEng.,  North China Electric Power University. 
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -84,9 +75,10 @@ Qihui Zhang \*, Chujie Gao \*, **Dongping Chen** \*, Yue Huang, Yixin Huang, Zhe
 <!-- # 💻 Internships
 - *2023.09 - now*, [Lichao Sun](https://lichao-sun.github.io/), remote intern, Lehigh University. -->
 
-# 🐱 My Beloved Petite Creature
+# 🐱 My Beloved Petite Creature and My Gilr
 
 <div align="center">
-    <img src="images/IMG_8497.GIF" alt="sym" width="49%" />
-    <img src="images/IMG_8480.GIF" alt="sym" width="49%" />
+    <img src="images/cat1.JPG" alt="sym" width="49%" />
+    <img src="images/cat2.JPG" alt="sym" width="49%" />
+    <img src="images/baby.JPG" alt="sym" width="49%" />
 </div>

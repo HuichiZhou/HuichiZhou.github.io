@@ -75,11 +75,16 @@ Fangyuan Zhang, **Huichi Zhou**, Shuangjiao Li, Hongtao Wang
 <!-- # 💻 Internships
 - *2023.09 - now*, [Lichao Sun](https://lichao-sun.github.io/), remote intern, Lehigh University. -->
 
-# 🐱 My Beloved Petite Creature and My Gilr
+# 🐱 My Beloved Cats and My Gilr
 
 <div align="center">
-    <img src="../images/cat2.jpg" alt="sym" width="49%" />
-    <img src="../images/baby.jpg" alt="sym" width="49%" />
+    <div style="display: inline-block; vertical-align: top;">
+        <img src="../images/cat2.jpg" alt="sym" width="100%" />
+        <img src="../images/cat1.jpg" alt="sym" width="100%" />
+    </div>
+    <div style="display: inline-block; vertical-align: top;">
+        <img src="../images/baby.jpg" alt="sym" width="100%" />
+    </div>
 </div>
 
 

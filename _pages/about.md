@@ -77,8 +77,7 @@ Fangyuan Zhang, **Huichi Zhou**, Shuangjiao Li, Hongtao Wang
 
 # 🐱 My Beloved Petite Creature and My Gilr
 
-<div align="center">
-    <img src="images/cat1.JPG" alt="sym" width="49%" />
-    <img src="images/cat2.JPG" alt="sym" width="49%" />
-    <img src="images/baby.JPG" alt="sym" width="49%" />
-</div>
+| ![sym](images/cat1.JPG) | ![sym](images/cat2.JPG) |
+|:-----------------------:|:-----------------------:|
+| ![sym](images/baby.JPG) |  |
+

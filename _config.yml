@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Dongping Chen's Website"
-description              : "Dongping Chen's Homepage"
-repository               : "Dongping-Chen/Dongping-Chen.github.io"
+title                    : "Huichi Zhou's Website"
+description              : "Huichi Zhou's Homepage"
+repository               : "HuichiZhou/HuichiZhoun.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Dongping Chen"
-  avatar           : "images/IMG_0890.JPG"
-  bio              : "Huazhong University of Science and Technology"
-  location         : "Wuhan, China"
+  name             : "Huichi Zhou"
+  avatar           : "images/fig001.JPG"
+  bio              : "North China Electric Power University"
+  location         : "Fujian, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=g92Ri7YAAAAJ&hl=zh-CN"
-  email            : "dongpingchen0612@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en"
+  email            : "huichizhou77@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : dongping-chen
+  github           : HuichiZhou
   google_plus      :
   keybase          :
   instagram        :

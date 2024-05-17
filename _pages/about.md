@@ -31,7 +31,8 @@ I am an incoming MRes student at Imperial College London for the 2024-2025 acade
 
 # 🔥 News
 
-- *2024.05*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! One paper has been accepted by ACL 2024 Findings! 
+- *2024.05.17*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024 Findings! 
+- *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! 
 
 # 📝 Publications 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ACL2024.jpg' alt="sym" width="100%"></div></div>

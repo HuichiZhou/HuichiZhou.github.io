@@ -79,7 +79,7 @@ Fangyuan Zhang, **Huichi Zhou**, Shuangjiao Li, Hongtao Wang
 <!-- # 💻 Internships
 - *2023.09 - now*, [Lichao Sun](https://lichao-sun.github.io/), remote intern, Lehigh University. -->
 
-# 🐱 My Beloved Cats and My Gilr
+# 🐱 My Beloved Cats and My Girl
 
 <div align="center">
     <div style="display: inline-block; vertical-align: top;">

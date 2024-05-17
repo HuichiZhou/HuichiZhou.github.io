@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Huichi Zhou"
-  avatar           : "images/fig001.JPG"
+  avatar           : "images/fig001.jpg"
   bio              : "North China Electric Power University"
   location         : "Fujian, China"
   employer         :

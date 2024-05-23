@@ -30,7 +30,7 @@ I am an incoming MRes student at Imperial College London for the 2024-2025 acade
   
 
 # 🔥 News
-
+- *2024.05.23*: &nbsp;🎉🎉 Four paper have been submitted to NeurIPS 2024! Good Luck! 
 - *2024.05.17*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024 Findings! 
 - *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! 
 

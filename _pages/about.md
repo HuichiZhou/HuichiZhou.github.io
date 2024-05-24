@@ -70,7 +70,7 @@ Fangyuan Zhang, **Huichi Zhou**, Shuangjiao Li, Hongtao Wang
 - *2023* National Scholarship (Top 1%)
 
 # 💬 Invited Talks
-2024.05.24 Invited Talk at Datawhale: Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models. @[[Datawhale]](https://github.com/datawhalechina) 
+- *2024.05.24* Invited Talk at Datawhale: Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models. @[[Datawhale]](https://github.com/datawhalechina) 
 
 # 📖 Educations
 - *2020.09 - 2024.06 (expected)*, BEng.,  North China Electric Power University. 

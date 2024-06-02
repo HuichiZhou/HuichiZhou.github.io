@@ -30,6 +30,7 @@ I am an incoming MRes student at Imperial College London for the 2024-2025 acade
   
 
 # 🔥 News
+- *2024.06.01*: &nbsp;🎉🎉 Our paper MLLM-AS-A-JUDGE has been selected ICML 2024 Oral! 
 - *2024.05.23*: &nbsp;🎉🎉 Four paper have been submitted to NeurIPS 2024! Good Luck! 
 - *2024.05.17*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024 Findings! 
 - *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! 
@@ -46,7 +47,7 @@ I am an incoming MRes student at Imperial College London for the 2024-2025 acade
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images/mllm-judge.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024 Oral</div><img src='images/mllm-judge.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark** [[PDF]](https://arxiv.org/abs/2402.04788) [[Github]](https://github.com/Dongping-Chen/MLLM-Judge) [[Website]](https://mllm-judge.github.io/)

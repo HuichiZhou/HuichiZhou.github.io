@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website!  
+<span class='anchor' id='about-me'></span>
 
+Welcome to my personal website!  I am Huichi Zhou (周辉池), an incming MRes student at Imperial Colledge London for the 2024-2025 academic year.
 =====
 
-I am Huichi Zhou (周辉池), an incoming MRes student at Imperial College London for the 2024-2025 academic year. 
 
 # 💡 Research Interest
 

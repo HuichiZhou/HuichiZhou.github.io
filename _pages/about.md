@@ -119,7 +119,7 @@ Haohao Ye, Hongtao Wang, **Huichi Zhou**, Yin Lv, Liran Yang
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/MODE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/MDOE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **MDOE: Multi-Dimensional Compound Geometric Operations for Knowledge Graph Embedding** [[PDF]](https://drive.google.com/file/d/1MaHGXIFWvR9MsC-rm7HWSzheEVi8vDTk/view?usp=drive_link)

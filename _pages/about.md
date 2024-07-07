@@ -20,7 +20,8 @@ redirect_from:
 Welcome to my personal website!  I am Huichi Zhou (周辉池), a Year 4 undergraduate at NCEPU.
 =====
 
-I am an incoming MRes student at Imperial College London for the 2024-2025 academic year.
+I am an incoming MRes student at Imperial College London for the 2024-2025 academic year. My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=1IJyxpUAAAAJ'>google scholar citations <strong><span id='total_cit'>10+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=1IJyxpUAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+
 
 
 # 💡 Research Interest

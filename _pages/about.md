@@ -53,6 +53,8 @@ I am an incoming MRes student at Imperial College London for the 2024-2025 acade
 
 Dongping Chen \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, **Huichi Zhou** \*, Qihui Zhang \*, Pan Zhou, Yao Wan, Lichao Sun
 
+</div>
+</div>
 
 # 🗑️ Arxiv/Preprint Paper
 

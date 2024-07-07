@@ -31,7 +31,6 @@ I am an incoming MRes student at Imperial College London for the 2024-2025 acade
 
 # 🔥 News
 - *2024.06.01*: &nbsp;🎉🎉 Our paper MLLM-AS-A-JUDGE has been selected ICML 2024 Oral! 
-- *2024.05.23*: &nbsp;🎉🎉 Four paper have been submitted to NeurIPS 2024! Good Luck! 
 - *2024.05.17*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024 Findings! 
 - *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! 
 
@@ -54,20 +53,19 @@ I am an incoming MRes student at Imperial College London for the 2024-2025 acade
 
 Dongping Chen \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, **Huichi Zhou** \*, Qihui Zhang \*, Pan Zhou, Yao Wan, Lichao Sun
 
-</div>
-</div>
 
-# 🗑️ Arxiv Paper
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
+# 🗑️ Arxiv/Preprint Paper
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/low-resource.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/abs/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) [[Website]](https://gui-world.github.io)
+**Low-Resource Language Matter!** [[PDF]](https://drive.google.com/file/d/1ePTxb8N9eal22JBM1ZdeE-nPzLjKk5sk/view?usp=drive_link))
 
-Dongping Chen \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, **Huichi Zhou**, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
+**Huichi Zhou**, Kaihong Li, Haoze Xu, Munan Zhao, Yue Huang, Zhaoyang Wang, Hongtao Wang
+
 
 </div>
 </div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv Preprint</div><img src='images/MPAT.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -79,6 +77,67 @@ Fangyuan Zhang, **Huichi Zhou**, Shuangjiao Li, Hongtao Wang
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/unlearn.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**A Key to Simpler Machine Unlearning in Large Language Models is Mixture of Experts** [[PDF]](https://drive.google.com/file/d/1Pi1gF8soTvc7hsXz2J1ptZEiJuSRNISx/view?usp=drive_link)
+
+Chenrui Fan, **Huichi Zhou**, Zhengqing Yuan, Pan Zhou, Lichao Sun
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vff.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Verifiable Format Control for Large Language Model Generations** [[PDF]](https://drive.google.com/file/d/1otw_wUNPw8d6TpHaTxsG9PD_EzDFNDb8/view?usp=drive_link)
+
+Zhaoyang Wang \*, Jinqi Jiang \*, **Huichi Zhou** \*, Xuchao Zhang, Chetan Bansal, Huaxiu Yao
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/gnn.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?** [[PDF]](https://drive.google.com/file/d/1ZODpR5KWxyrY4suJXcfT5E9UhB8nU39f/view?usp=drive_link)
+
+Zhongjian Zhang, Xiao Wang, **Huichi Zhou**, Yue Yu, Mengmei Zhang, Cheng Yang, Chuan Shi
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/time-review.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**TRev: A Timely Review Framework for Continual Learning** [[PDF]](https://drive.google.com/file/d/1_cFV66DJeLl731lAalVjiglKI6-nh_Io/view?usp=drive_link)
+
+Haohao Ye, Hongtao Wang, **Huichi Zhou**, Yin Lv, Liran Yang
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/MODE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MDOE: Multi-Dimensional Compound Geometric Operations for Knowledge Graph Embedding** [[PDF]](https://drive.google.com/file/d/1MaHGXIFWvR9MsC-rm7HWSzheEVi8vDTk/view?usp=drive_link)
+
+Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/abs/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) [[Website]](https://gui-world.github.io)
+
+Dongping Chen \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, **Huichi Zhou**, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
+
+</div>
+</div>
 
 
 # 🎖 Honors and Awards

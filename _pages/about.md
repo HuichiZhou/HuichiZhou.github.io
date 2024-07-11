@@ -35,6 +35,10 @@ Welcome to my personal website!  I am Huichi Zhou (周辉池), an incming MRes s
 - *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! 
 
 # 📝 Publications 
+</div>
+</div>
+# 😈 Adversarial Machine Learning 
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ACL2024.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -46,25 +50,13 @@ Welcome to my personal website!  I am Huichi Zhou (周辉池), an incming MRes s
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024 Oral</div><img src='images/mllm-judge.jpg' alt="sym" width="100%"></div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/gnn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark** [[PDF]](https://arxiv.org/abs/2402.04788) [[Github]](https://github.com/Dongping-Chen/MLLM-Judge) [[Website]](https://mllm-judge.github.io/)
+**Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?** [[PDF]](https://drive.google.com/file/d/1ZODpR5KWxyrY4suJXcfT5E9UhB8nU39f/view?usp=drive_link)
 
-Dongping Chen \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, **Huichi Zhou** \*, Qihui Zhang \*, Pan Zhou, Yao Wan, Lichao Sun
-
-</div>
-</div>
-
-# 🗑️ Arxiv/Preprint Paper
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/low-resource.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Low-Resource Language Matter!** [[PDF]](https://drive.google.com/file/d/1ePTxb8N9eal22JBM1ZdeE-nPzLjKk5sk/view?usp=drive_link))
-
-**Huichi Zhou**, Kaihong Li, Haoze Xu, Munan Zhao, Yue Huang, Zhaoyang Wang, Hongtao Wang
-
+Zhongjian Zhang, Xiao Wang, **Huichi Zhou**, Yue Yu, Mengmei Zhang, Cheng Yang, Chuan Shi
 
 </div>
 </div>
@@ -79,6 +71,23 @@ Fangyuan Zhang, **Huichi Zhou**, Shuangjiao Li, Hongtao Wang
 </div>
 </div>
 
+
+
+# 💬 Low-resource Language in LLM
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/low-resource.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Low-Resource Language Matter!** [[PDF]](https://drive.google.com/file/d/1ePTxb8N9eal22JBM1ZdeE-nPzLjKk5sk/view?usp=drive_link))
+
+**Huichi Zhou**, Kaihong Li, Haoze Xu, Munan Zhao, Yue Huang, Zhaoyang Wang, Hongtao Wang
+
+
+</div>
+</div>
+
+# 🤔 Unleaning in LLM
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/unlearn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -89,6 +98,7 @@ Chenrui Fan, **Huichi Zhou**, Zhengqing Yuan, Pan Zhou, Lichao Sun
 </div>
 </div>
 
+# 🦸 Self-Evolution in LLM
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vff.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -99,15 +109,7 @@ Zhaoyang Wang \*, Jinqi Jiang \*, **Huichi Zhou** \*, Xuchao Zhang, Chetan Bansa
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/gnn.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?** [[PDF]](https://drive.google.com/file/d/1ZODpR5KWxyrY4suJXcfT5E9UhB8nU39f/view?usp=drive_link)
-
-Zhongjian Zhang, Xiao Wang, **Huichi Zhou**, Yue Yu, Mengmei Zhang, Cheng Yang, Chuan Shi
-
-</div>
-</div>
+# 📜 Continual Learning
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/time-review.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -119,6 +121,7 @@ Haohao Ye, Hongtao Wang, **Huichi Zhou**, Yin Lv, Liran Yang
 </div>
 </div>
 
+# 🕸️ Knowledge Graph
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/MDOE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -130,6 +133,7 @@ Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
 </div>
 </div>
 
+# 📊 Benchmark
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -141,19 +145,25 @@ Dongping Chen \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024 Oral</div><img src='images/mllm-judge.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark** [[PDF]](https://arxiv.org/abs/2402.04788) [[Github]](https://github.com/Dongping-Chen/MLLM-Judge) [[Website]](https://mllm-judge.github.io/)
+
+Dongping Chen \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, **Huichi Zhou** \*, Qihui Zhang \*, Pan Zhou, Yao Wan, Lichao Sun
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
 - *2023* National Scholarship (Top 1%)
 
-# 💬 Invited Talks
+# 🗡️ Invited Talks
 - *2024.05.24* Invited Talk at Datawhale: Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models. @[[Datawhale]](https://github.com/datawhalechina) 
 
 # 📖 Educations
 - *2020.09 - 2024.06 *, BEng.,  North China Electric Power University. 
-
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+- *2017.09 - 2020.06 *, QuanZhou NO.5 High School. 
 
 <!-- # 💻 Internships
 - *2023.09 - now*, [Lichao Sun](https://lichao-sun.github.io/), remote intern, Lehigh University. -->

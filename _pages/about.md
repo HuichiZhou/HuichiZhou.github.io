@@ -35,8 +35,6 @@ Welcome to my personal website!  I am Huichi Zhou (周辉池), an incming MRes s
 - *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! 
 
 # 📝 Publications 
-</div>
-</div>
 # 😈 Adversarial Machine Learning 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ACL2024.jpg' alt="sym" width="100%"></div></div>

@@ -164,7 +164,7 @@ Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
 - *2017.09 - 2020.06 *, QuanZhou NO.5 High School. 
 
 # 💻 Internships
-- *2024.04 - now*, [Huaxiu Yao](https://www.huaxiuyao.io/), Research Intern, University of North Carolina at Chapel Hill.
+- *2024.04 - 2024.06*, [Huaxiu Yao](https://www.huaxiuyao.io/), Research Intern, University of North Carolina at Chapel Hill.
 - *2023.10 - 2024.04*, [Lichao Sun](https://lichao-sun.github.io/), Research intern, Lehigh University. 
 
 # 🐱 My Beloved Cats and My Girl

@@ -19,14 +19,17 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Welcome to my personal website!  I am Huichi Zhou (周辉池), an incoming MRes student at Imperial Colledge London for the 2024-2025 academic year.
+Welcome to my personal website!  
 =====
 
+I am Huichi Zhou (周辉池), an incoming MRes student at Imperial Colledge London for the 2024-2025 academic year supervised by [Prof.Guang Yang](https://www.yanglab.fyi/).
 
 # 💡 Research Interest
 
 - Adversarial Attack and Defense
 - Natural Language Processing
+- Multimodal Large Language Model
+- Medical AI
   
 
 # 🔥 News

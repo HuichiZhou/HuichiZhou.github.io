@@ -48,7 +48,7 @@ I am Huichi Zhou (周辉池), an incoming MRes student at Imperial Colledge Lond
 
 Yang Nan, **Huichi Zhou**, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan Gao, Alejandro F Frangi, Guang Yang
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/work1.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/work2.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Beyond the Hype: A dispassionate look at vision-language models in medical scenario** [[PDF]](https://drive.google.com/file/d/1oSDA_KgVUMX-oOFUxK22js-h-W-QhX3s/view?usp=drive_link)  

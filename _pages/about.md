@@ -38,6 +38,24 @@ I am Huichi Zhou (周辉池), an incoming MRes student at Imperial Colledge Lond
 - *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! 
 
 # 📝 Publications 
+# 💉 Medical AI
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/work1.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Revisiting Medical Image Retrieval via Knowledge Consolidation** [[PDF]](https://drive.google.com/file/d/1gtPwPrw7lS9iE00OcJ2lm-jMXBeZeN5C/view?usp=drive_link)  
+
+
+Yang Nan, **Huichi Zhou**, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan Gao, Alejandro F Frangi, Guang Yang
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/work1.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Beyond the Hype: A dispassionate look at vision-language models in medical scenario** [[PDF]](https://drive.google.com/file/d/1oSDA_KgVUMX-oOFUxK22js-h-W-QhX3s/view?usp=drive_link)  
+
+
+Yang Nan \*, **Huichi Zhou** \*, Xiaodan Xing, Guang Yang
+
 # 😈 Adversarial Machine Learning 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ACL2024.jpg' alt="sym" width="100%"></div></div>

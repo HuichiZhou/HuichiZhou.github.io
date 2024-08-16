@@ -48,6 +48,9 @@ I am Huichi Zhou (周辉池), an incoming MRes student at Imperial Colledge Lond
 
 Yang Nan, **Huichi Zhou**, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan Gao, Alejandro F Frangi, Guang Yang
 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/work2.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -56,6 +59,8 @@ Yang Nan, **Huichi Zhou**, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan 
 
 Yang Nan \*, **Huichi Zhou** \*, Xiaodan Xing, Guang Yang
 
+</div>
+</div>
 # 😈 Adversarial Machine Learning 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ACL2024.jpg' alt="sym" width="100%"></div></div>

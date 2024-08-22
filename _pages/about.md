@@ -118,19 +118,6 @@ Dongping Chen \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin 
 </div>
 
 
-# 💬 Low-resource Language in LLM
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/low-resource.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Low-Resource Language Matter!** [[PDF]](https://drive.google.com/file/d/1ePTxb8N9eal22JBM1ZdeE-nPzLjKk5sk/view?usp=drive_link))
-
-**Huichi Zhou**, Kaihong Li, Haoze Xu, Munan Zhao, Yue Huang, Zhaoyang Wang, Hongtao Wang
-
-
-</div>
-</div>
-
 # 🤔 Unleaning in LLM
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/unlearn.png' alt="sym" width="100%"></div></div>

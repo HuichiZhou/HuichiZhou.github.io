@@ -169,6 +169,10 @@ Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
 # 🎖 Honors and Awards
 - *2023* National Scholarship (Top 1%)
 
+# ⚖️ Services
+
+- *2023* ICLR 2025 Conference Reviewer
+
 # 🗡️ Invited Talks
 - *2024.05.24* Invited Talk at Datawhale: Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models. @[[Datawhale]](https://github.com/datawhalechina) 
 

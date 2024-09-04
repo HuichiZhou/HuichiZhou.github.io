@@ -37,6 +37,16 @@ I am Huichi Zhou (周辉池), an incoming MRes student at Imperial Colledge Lond
 - *2024.05.17*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024 Findings! 
 - *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! 
 
+<style>
+.scrollable-section {
+    height: 500px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+</style>
+
+<div class="scrollable-section">
 # 📝 Publications 
 # 💉 Medical AI
 
@@ -73,7 +83,6 @@ Yang Nan \*, **Huichi Zhou** \*, Xiaodan Xing, Guang Yang
 
 </div>
 </div>
-
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/gnn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -162,6 +171,7 @@ Haohao Ye, Hongtao Wang, **Huichi Zhou**, Yin Lv, Liran Yang
 
 Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
 
+</div>
 </div>
 </div>
 

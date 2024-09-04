@@ -35,177 +35,104 @@ I am Huichi Zhou (周辉池), an incoming MRes student at Imperial Colledge Lond
 # 🔥 News
 - *2024.06.01*: &nbsp;🎉🎉 Our paper MLLM-AS-A-JUDGE has been selected ICML 2024 Oral! 
 - *2024.05.17*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024 Findings! 
-- *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024! 
-
-<style>
-.scrollable-section {
-    max-height: 500px;
-    overflow-y: auto;
-    border: 1px solid #ccc;
-    padding: 10px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 20px 0 10px 0;
-}
-.paper-box {
-    margin-bottom: 20px;
-}
-.paper-box-image {
-    float: left;
-    width: 30%;
-    margin-right: 10px;
-}
-.paper-box-text {
-    float: left;
-    width: 65%;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-</style>
-
-# 📝 Publications
-<div class="scrollable-section">
-  
+- *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024!
+- 
+# 📝 Publications 
 # 💉 Medical AI
 
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div>
-    <img src='images/work1.jpg' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **Revisiting Medical Image Retrieval via Knowledge Consolidation** [[PDF]](https://drive.google.com/file/d/1gtPwPrw7lS9iE00OcJ2lm-jMXBeZeN5C/view?usp=drive_link)  
-    Yang Nan, **Huichi Zhou**, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan Gao, Alejandro F Frangi, Guang Yang
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/work1.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Revisiting Medical Image Retrieval via Knowledge Consolidation** [[PDF]](https://drive.google.com/file/d/1gtPwPrw7lS9iE00OcJ2lm-jMXBeZeN5C/view?usp=drive_link)  
+
+
+Yang Nan, **Huichi Zhou**, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan Gao, Alejandro F Frangi, Guang Yang
+
+</div>
 </div>
 
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div>
-    <img src='images/work2.jpg' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **Beyond the Hype: A dispassionate look at vision-language models in medical scenario** [[PDF]](https://drive.google.com/file/d/1oSDA_KgVUMX-oOFUxK22js-h-W-QhX3s/view?usp=drive_link)  
-    Yang Nan \*, **Huichi Zhou** \*, Xiaodan Xing, Guang Yang
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/work2.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Beyond the Hype: A dispassionate look at vision-language models in medical scenario** [[PDF]](https://drive.google.com/file/d/1oSDA_KgVUMX-oOFUxK22js-h-W-QhX3s/view?usp=drive_link)  
+
+
+Yang Nan \*, **Huichi Zhou** \*, Xiaodan Xing, Guang Yang
+
+</div>
 </div>
 
-# 😈 Adversarial Machine Learning
+# 😈 Adversarial Machine Learning 
 
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">ACL 2024</div>
-    <img src='images/ACL2024.jpg' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models** [[PDF]](https://drive.google.com/file/d/1wq4iaSicSBiljMUt7lENMPOOLneZj4EO/view?usp=drive_link)  [[Github]](https://github.com/HuichiZhou/AVLLM)  
-    **Huichi Zhou** \*, Zhaoyang Wang \*, Hongtao Wang , Dongping Chen, Wenhan Mu, Fangyuan Zhang
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ACL2024.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models** [[PDF]](https://drive.google.com/file/d/1wq4iaSicSBiljMUt7lENMPOOLneZj4EO/view?usp=drive_link)  [[Github]](https://github.com/HuichiZhou/AVLLM)
+
+**Huichi Zhou** \*, Zhaoyang Wang \*, Hongtao Wang , Dongping Chen, Wenhan Mu, Fangyuan Zhang
+
+
+</div>
 </div>
 
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div>
-    <img src='images/gnn.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?** [[PDF]](https://drive.google.com/file/d/1ZODpR5KWxyrY4suJXcfT5E9UhB8nU39f/view?usp=drive_link)  
-    Zhongjian Zhang, Xiao Wang, **Huichi Zhou**, Yue Yu, Mengmei Zhang, Cheng Yang, Chuan Shi
-  </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/gnn.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?** [[PDF]](https://drive.google.com/file/d/1ZODpR5KWxyrY4suJXcfT5E9UhB8nU39f/view?usp=drive_link)
+
+Zhongjian Zhang, Xiao Wang, **Huichi Zhou**, Yue Yu, Mengmei Zhang, Cheng Yang, Chuan Shi
+
+</div>
 </div>
 
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div>
-    <img src='images/MPAT.jpg' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **MPAT: Building Robust Deep Neural Networks against Textual Adversarial Attacks** [[PDF]](https://arxiv.org/abs/2402.18792)  
-    Fangyuan Zhang, **Huichi Zhou**, Shuangjiao Li, Hongtao Wang
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/MPAT.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MPAT: Building Robust Deep Neural Networks against Textual Adversarial Attacks** [[PDF]](https://arxiv.org/abs/2402.18792) 
+
+Fangyuan Zhang, **Huichi Zhou**, Shuangjiao Li, Hongtao Wang
+
+</div>
 </div>
 
 # 📊 Benchmark
 
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">ICML 2024 Oral</div>
-    <img src='images/mllm-judge.jpg' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark** [[PDF]](https://arxiv.org/abs/2402.04788) [[Github]](https://github.com/Dongping-Chen/MLLM-Judge) [[Website]](https://mllm-judge.github.io/)  
-    Dongping Chen \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, **Huichi Zhou** \*, Qihui Zhang \*, Pan Zhou, Yao Wan, Lichao Sun
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024 Oral</div><img src='images/mllm-judge.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark** [[PDF]](https://arxiv.org/abs/2402.04788) [[Github]](https://github.com/Dongping-Chen/MLLM-Judge) [[Website]](https://mllm-judge.github.io/)
+
+Dongping Chen \*, Ruoxi Chen \*, Shilin Zhang \*, Yinuo Liu \*, Yaochen Wang \*, **Huichi Zhou** \*, Qihui Zhang \*, Pan Zhou, Yao Wan, Lichao Sun
+
+</div>
 </div>
 
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div>
-    <img src='images/GUI.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/abs/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) [[Website]](https://gui-world.github.io)  
-    Dongping Chen \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, **Huichi Zhou**, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/GUI.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**GUI-World: A Dataset for GUI-oriented Multimodal LLM-based Agents** [[PDF]](https://arxiv.org/abs/2406.10819) [[Github]](https://github.com/Dongping-Chen/GUI-World) [[Website]](https://gui-world.github.io)
+
+Dongping Chen \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin Bai, Zhigang He, Chenlong Wang, **Huichi Zhou**, Yiqiang Li, Tianshuo Zhou, Yue Yu, Chujie Gao, Qihui Zhang, Yi Gui, Zhen Li, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
+
+</div>
 </div>
 
-# 🤔 Unleaning in LLM
-
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div>
-    <img src='images/unlearn.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **A Key to Simpler Machine Unlearning in Large Language Models is Mixture of Experts** [[PDF]](https://drive.google.com/file/d/1Pi1gF8soTvc7hsXz2J1ptZEiJuSRNISx/view?usp=drive_link)  
-    Chenrui Fan, **Huichi Zhou**, Zhengqing Yuan, Pan Zhou, Lichao Sun
-  </div>
-</div>
 
 # 🦸 Self-Evolution in LLM
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vff.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div>
-    <img src='images/vff.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **Verifiable Format Control for Large Language Model Generations** [[PDF]](https://drive.google.com/file/d/1otw_wUNPw8d6TpHaTxsG9PD_EzDFNDb8/view?usp=drive_link)  
-    Zhaoyang Wang \*, Jinqi Jiang \*, **Huichi Zhou** \*, Xuchao Zhang, Chetan Bansal, Huaxiu Yao
-  </div>
-</div>
+**Verifiable Format Control for Large Language Model Generations** [[PDF]](https://drive.google.com/file/d/1otw_wUNPw8d6TpHaTxsG9PD_EzDFNDb8/view?usp=drive_link)
 
-# 📜 Continual Learning
-
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div>
-    <img src='images/time-review.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **TRev: A Timely Review Framework for Continual Learning** [[PDF]](https://drive.google.com/file/d/1_cFV66DJeLl731lAalVjiglKI6-nh_Io/view?usp=drive_link)  
-    Haohao Ye, Hongtao Wang, **Huichi Zhou**, Yin Lv, Liran Yang
-  </div>
-</div>
-
-# 🕸️ Knowledge Graph
-
-<div class='paper-box clearfix'>
-  <div class='paper-box-image'>
-    <div><div class="badge">Preprint</div>
-    <img src='images/MDOE.png' alt="sym" width="100%"></div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-    **MDOE: Multi-Dimensional Compound Geometric Operations for Knowledge Graph Embedding** [[PDF]](https://drive.google.com/file/d/1MaHGXIFWvR9MsC-rm7HWSzheEVi8vDTk/view?usp=drive_link)  
-    Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
-  </div>
-</div>
+Zhaoyang Wang \*, Jinqi Jiang \*, **Huichi Zhou** \*, Xuchao Zhang, Chetan Bansal, Huaxiu Yao
 
 </div>
+</div>
+
+
+
+
 
 
 # 🎖 Honors and Awards

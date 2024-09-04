@@ -35,8 +35,7 @@ I am Huichi Zhou (周辉池), an incoming MRes student at Imperial Colledge Lond
 # 🔥 News
 - *2024.06.01*: &nbsp;🎉🎉 Our paper MLLM-AS-A-JUDGE has been selected ICML 2024 Oral! 
 - *2024.05.17*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024 Findings! 
-- *2024.05.02*: &nbsp;🎉🎉 One paper has been accepted by ICML 2024!
-- 
+
 # 📝 Publications 
 # 💉 Medical AI
 

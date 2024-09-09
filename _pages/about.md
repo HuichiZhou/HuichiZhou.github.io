@@ -22,7 +22,8 @@ redirect_from:
 Welcome to my personal website!  
 =====
 
-I am Huichi Zhou (周辉池), an incoming MRes student at Imperial Colledge London for the 2024-2025 academic year supervised by [Prof.Guang Yang](https://www.yanglab.fyi/).
+I am Huichi Zhou (周辉池)
+
 
 # 💡 Research Interest
 

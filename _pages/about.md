@@ -151,7 +151,6 @@ Zhaoyang Wang \*, Jinqi Jiang \*, **Huichi Zhou** \*, Xuchao Zhang, Chetan Bansa
 
 # 💻 Internships
 - *2024.04 - 2024.06*, [Huaxiu Yao](https://www.huaxiuyao.io/), Research Intern, University of North Carolina at Chapel Hill.
-- *2023.10 - 2024.04*, [Lichao Sun](https://lichao-sun.github.io/), Research intern, Lehigh University. 
 
 # 🐱 My Beloved Cats and My Girl
 

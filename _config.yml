@@ -27,7 +27,7 @@ author:
   location         : "London, UK"
   employer         :
   pubmed           : 
-  googlescholar    : "https://www.semanticscholar.org/author/Huichi-Zhou/2283313383"
+  googlescholar    : "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en"
   email            : "huichizhou77@gmail.com"
   semanticscholar  : 
   uri              :
@@ -38,13 +38,13 @@ author:
   facebook         :
   foursquare       :
   github           : HuichiZhou
-  google_plus      : "https://www.semanticscholar.org/author/Huichi-Zhou/2283313383"
+  google_plus      : # "https://www.semanticscholar.org/author/Huichi-Zhou/2283313383"
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  dblp             : "https://www.semanticscholar.org/author/Huichi-Zhou/2283313383"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :

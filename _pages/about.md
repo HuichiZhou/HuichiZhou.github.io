@@ -38,6 +38,7 @@ I am Huichi Zhou (周辉池)
 - *2024.05.17*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024 Findings! 
 
 # 📝 Publications 
+
 # 💉 Medical AI
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/work1.jpg' alt="sym" width="100%"></div></div>
@@ -119,7 +120,7 @@ Dongping Chen \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin 
 </div>
 
 
-# 🦸 Self-Evolution in LLM
+# Self-Evolution in LLM
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vff.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -130,8 +131,16 @@ Zhaoyang Wang \*, Jinqi Jiang \*, **Huichi Zhou** \*, Xuchao Zhang, Chetan Bansa
 </div>
 </div>
 
+# Knowledge Graph
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vff.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+**RCE: Shifting Focus from Entities to Relations for Knowledge Graph Embedding** [[PDF]](https://drive.google.com/file/d/1YQPKzlsYbjLImwjfe0zUlXOXnU9fYbAb/view?usp=drive_link)
 
+Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
+
+</div>
+</div>
 
 
 

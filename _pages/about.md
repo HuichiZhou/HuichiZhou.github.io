@@ -120,17 +120,6 @@ Dongping Chen \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin 
 </div>
 
 
-# Self-Evolution in LLM
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/vff.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Verifiable Format Control for Large Language Model Generations** [[PDF]](https://drive.google.com/file/d/1otw_wUNPw8d6TpHaTxsG9PD_EzDFNDb8/view?usp=drive_link)
-
-Zhaoyang Wang \*, Jinqi Jiang \*, **Huichi Zhou** \*, Xuchao Zhang, Chetan Bansal, Huaxiu Yao
-
-</div>
-</div>
-
 # Knowledge Graph
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/MDOE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

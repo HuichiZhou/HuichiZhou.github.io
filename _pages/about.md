@@ -76,6 +76,15 @@ Yang Nan \*, **Huichi Zhou** \*, Xiaodan Xing, Guang Yang
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/Codejudge.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Evaluating and Defending Code Language Models Against Adversarial Attacks Using LLM-as-a-Judge** [[PDF]](https://drive.google.com/file/d/1HYF4VNZr6LhGaDUoyXEjHVT3lyAHJYJn/view?usp=drive_link)
+
+Wenhan Mu, **Huichi Zhou**, Ling Xu, Dongping Chen, Yao Wan, Hongyu Zhang
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/gnn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">

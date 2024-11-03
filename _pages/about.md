@@ -146,7 +146,7 @@ Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
 
 **Verifiable Format Control for Large Language Model Generations** [[PDF]](https://drive.google.com/file/d/1XvLpFArdNzkPjF0kT9VhGKUE5MkiovxY/view?usp=drive_link)
 
-Zhaoyang Wang, Jinqi Jiang, **Huichi Zhou**, Huaxiu Yao
+Zhaoyang Wang\*, Jinqi Jiang\*, **Huichi Zhou\***, Huaxiu Yao
 
 </div>
 </div>

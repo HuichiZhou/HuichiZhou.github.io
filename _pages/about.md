@@ -86,7 +86,7 @@ Wenhan Mu, **Huichi Zhou**, Ling Xu, Dongping Chen, Yao Wan, Hongyu Zhang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/gnn.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/gnn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?** [[PDF]](https://arxiv.org/pdf/2408.08685)

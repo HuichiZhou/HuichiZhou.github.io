@@ -135,7 +135,7 @@ Dongping Chen \*, Yue Huang \*, Siyuan Wu \*, Jingyu Tang \*, Liuyi Chen, Yilin 
 
 **RCE: Shifting Focus from Entities to Relations for Knowledge Graph Embedding** [[PDF]](https://drive.google.com/file/d/1YQPKzlsYbjLImwjfe0zUlXOXnU9fYbAb/view?usp=drive_link)
 
-Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
+Heng Yu, **Huichi Zhou**, Zhongyu He, Jianyong Zhu, Hongtao Wang, 
 
 </div>
 </div>

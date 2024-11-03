@@ -55,7 +55,7 @@ Yang Nan, **Huichi Zhou**, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/work2.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Beyond the Hype: A dispassionate look at vision-language models in medical scenario** [[PDF]](https://drive.google.com/file/d/1oSDA_KgVUMX-oOFUxK22js-h-W-QhX3s/view?usp=drive_link)  
+**Beyond the Hype: A dispassionate look at vision-language models in medical scenario** [[PDF]](https://arxiv.org/pdf/2408.08704)  
 
 
 Yang Nan \*, **Huichi Zhou** \*, Xiaodan Xing, Guang Yang
@@ -68,7 +68,7 @@ Yang Nan \*, **Huichi Zhou** \*, Xiaodan Xing, Guang Yang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ACL2024.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models** [[PDF]](https://drive.google.com/file/d/1wq4iaSicSBiljMUt7lENMPOOLneZj4EO/view?usp=drive_link)  [[Github]](https://github.com/HuichiZhou/AVLLM)
+**Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models** [[PDF]](https://aclanthology.org/2024.findings-acl.292.pdf)  [[Github]](https://github.com/HuichiZhou/AVLLM)
 
 **Huichi Zhou** \*, Zhaoyang Wang \*, Hongtao Wang , Dongping Chen, Wenhan Mu, Fangyuan Zhang
 
@@ -89,7 +89,7 @@ Wenhan Mu, **Huichi Zhou**, Ling Xu, Dongping Chen, Yao Wan, Hongyu Zhang
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/gnn.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?** [[PDF]](https://drive.google.com/file/d/1ZODpR5KWxyrY4suJXcfT5E9UhB8nU39f/view?usp=drive_link)
+**Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?** [[PDF]](https://arxiv.org/pdf/2408.08685)
 
 Zhongjian Zhang, Xiao Wang, **Huichi Zhou**, Yue Yu, Mengmei Zhang, Cheng Yang, Chuan Shi
 
@@ -140,6 +140,16 @@ Heng Yu, Hongtao Wang, Zhongyu He, **Huichi Zhou**
 </div>
 </div>
 
+# Self-Rewarding Model
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/self-rewarding.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Verifiable Format Control for Large Language Model Generations** [[PDF]](https://drive.google.com/file/d/1XvLpFArdNzkPjF0kT9VhGKUE5MkiovxY/view?usp=drive_link)
+
+Zhaoyang Wang, Jinqi Jiang, **Huichi Zhou**, Huaxiu Yao
+
+</div>
+</div>
 
 
 # 🎖 Honors and Awards

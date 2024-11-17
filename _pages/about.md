@@ -34,8 +34,9 @@ I am Huichi Zhou (周辉池)
   
 
 # 🔥 News
-- *2024.06.01*: &nbsp;🎉🎉 Our paper MLLM-AS-A-JUDGE has been selected ICML 2024 Oral! 
-- *2024.05.17*: &nbsp;🎉🎉 One paper has been accepted by ACL 2024 Findings! 
+- *2024.11.17*: One paper gets accepted to SIGKDD 2025. 
+- *2024.06.01*: One paper gets accepted ICML 2024 Oral. 
+- *2024.05.17*: One paper gets accepted ACL 2024 Findings.
 
 # 📝 Publications 
 

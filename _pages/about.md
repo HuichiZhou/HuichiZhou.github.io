@@ -158,16 +158,17 @@ Zhaoyang Wang\*, Jinqi Jiang\*, **Huichi Zhou\***, Huaxiu Yao
 
 # ⚖️ Services
 
-- EMNLP 2024, NeurIPS 2024, ICLR 2025, AISTATS 2025, COLING 2025, ISBI 2025, ICASSP 2025 Conference Reviewer
+- EMNLP 2024, NeurIPS 2024, ICLR 2025, AISTATS 2025, COLING 2025, ISBI 2025, ICASSP 2025, ACL ARR October 2024  Conference Reviewer
 
 # 🗡️ Invited Talks
 - *2024.05.24* Invited Talk at Datawhale: Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models. @[[Datawhale]](https://github.com/datawhalechina) 
 
 # 📖 Educations
-- *2020.09 - 2024.06 *, BEng.,  North China Electric Power University. 
-- *2017.09 - 2020.06 *, QuanZhou NO.5 High School. 
+- *2020.09 - 2024.06*, BEng.,  North China Electric Power University. 
+- *2017.09 - 2020.06*, QuanZhou NO.5 High School. 
 
 # 💻 Internships
+- *2024.11 - Present*, [MindRank](https://www.mindrank.ai/en) 
 - *2024.04 - 2024.06*, [Huaxiu Yao](https://www.huaxiuyao.io/), Research Intern, University of North Carolina at Chapel Hill.
 
 # 🐱 My Beloved Cats and My Girl

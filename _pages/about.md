@@ -168,7 +168,7 @@ Zhaoyang Wang\*, Jinqi Jiang\*, **Huichi Zhou\***, Huaxiu Yao
 - *2017.09 - 2020.06*, QuanZhou NO.5 High School. 
 
 # 💻 Internships
-- *2024.11 - Present*, [MindRank](https://www.mindrank.ai/en) 
+- *2024.11 - Present*, [MindRank AI](https://www.mindrank.ai/en), Research Assistant
 - *2024.04 - 2024.06*, [Huaxiu Yao](https://www.huaxiuyao.io/), Research Intern, University of North Carolina at Chapel Hill.
 
 # 🐱 My Beloved Cats and My Girl

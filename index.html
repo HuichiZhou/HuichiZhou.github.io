@@ -54,6 +54,43 @@
 
 
 
+          <tr onmouseout="diffusedef_stop()" onmouseover="diffusedef_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='diffusedef_image'>
+                  <img src='images/diffusedef.jpg' width="220"></div>
+                <img src='images/diffusedef.jpg' width="220">
+              </div>
+              <script type="text/javascript">
+                function diffusedef_start() {
+                  document.getElementById('diffusedef_image').style.opacity = "1";
+                }
+
+                function diffusedef_stop() {
+                  document.getElementById('diffusedef_image').style.opacity = "0";
+                }
+                diffusedef_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <!-- <a href="https://et-seed.github.io/"> -->
+              <papertitle> DiffuseDef: Improve dRobustness to Adversarial Attacks via Iterative Denoising
+              </papertitle>
+              </a>
+              <br>
+              Zhenhao Li,
+	      <strong>Huichi Zhou</strong>, 
+              Marek Rei, 
+	      Lucia Specia
+              <br>
+              <em>ACL 2025</em> 
+              <br> 
+              <a href="https://arxiv.org/abs/2407.00248">paper</a>
+              <p></p>
+              <p> We propose DiffuseDef, an adversarial defense method for language classification tasks. The method inserts a diffusion layer between the encoder and classifier to iteratively denoise adversarially perturbed hidden states. It is evaluated on datasets like AG News, IMDB, and QNLI against both black-box and white-box attacks.  </p>
+            </td>
+          </tr>
 
 
 	  

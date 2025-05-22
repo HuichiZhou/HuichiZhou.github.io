@@ -40,7 +40,7 @@
             <td style="padding:2.5%;width:40%;max-width:40%">
               <a href="images/zhc.jpg"><img style="width:80%;max-width:100%" alt="profile photo" src="images/zhc.jpg" class="hoverZoomLink"></a>
             </td>
-
+		  
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -51,391 +51,109 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:30px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<!-- Publications List without Images -->
+<table style="width:100%; border-collapse:collapse;">
 
+  <!-- DiffuseDef -->
+  <tr>
+    <td style="padding:20px; vertical-align:middle;">
+      <papertitle>DiffuseDef: Improve dRobustness to Adversarial Attacks via Iterative Denoising</papertitle><br>
+      Zhenhao Li, <strong>Huichi Zhou</strong>, Marek Rei, Lucia Specia<br>
+      <em>ACL 2025</em><br>
+      <a href="https://arxiv.org/abs/2407.00248">paper</a>
+      <p>We propose DiffuseDef, an adversarial defense method for language classification tasks. The method inserts a diffusion layer between the encoder and classifier to iteratively denoise adversarially perturbed hidden states. It is evaluated on datasets like AG News, IMDB, and QNLI against both black-box and white-box attacks.</p>
+    </td>
+  </tr>
 
+  <!-- Beyond the Hype -->
+  <tr>
+    <td style="padding:20px; vertical-align:middle;">
+      <papertitle>Beyond the Hype: A Dispassionate Look at Vision-Language Models in Medical Scenario</papertitle><br>
+      Yang Nan*, <strong>Huichi Zhou*</strong>, Xiaodan Xing, Guang Yang<br>
+      <em>IEEE Transactions on Neural Networks and Learning Systems (TNNLS), Impact Factor 10.2</em><br>
+      <a href="https://arxiv.org/abs/2408.08704">paper</a>
+      <p>We introduce RadVUQA, a novel Radiological Visual Understanding and Question Answering benchmark, to comprehensively evaluate existing LVLMs.</p>
+    </td>
+  </tr>
 
-          <tr onmouseout="diffusedef_stop()" onmouseover="diffusedef_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='diffusedef_image'>
-                  <img src='images/diffusedef.jpg' width="220"></div>
-                <img src='images/diffusedef.jpg' width="220">
-              </div>
-              <script type="text/javascript">
-                function diffusedef_start() {
-                  document.getElementById('diffusedef_image').style.opacity = "1";
-                }
+  <!-- Revisiting Medical Image Retrieval -->
+  <tr>
+    <td style="padding:20px; vertical-align:middle;">
+      <papertitle>Revisiting Medical Image Retrieval via Knowledge Consolidation</papertitle><br>
+      Yang Nan, <strong>Huichi Zhou</strong>, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan Gao, Alejandro F. Frangi, Guang Yang<br>
+      <em>Medical Image Analysis, Impact Factor 10.7</em><br>
+      <a href="https://arxiv.org/pdf/2503.09370">paper</a>
+      <p>ACIR (Anomaly-aware Content-based Image Recommendation) is a medical image retrieval framework that enhances accuracy and robustness through multi-level feature fusion (DaRF), structure-aware contrastive hashing (SCH), self-supervised OOD detection, and content-guided ranking. It achieves up to 38.9% improvement in mAP on anatomical datasets over existing methods.</p>
+    </td>
+  </tr>
 
-                function diffusedef_stop() {
-                  document.getElementById('diffusedef_image').style.opacity = "0";
-                }
-                diffusedef_stop()
-              </script>
-            </td>
+  <!-- TrustRAG -->
+  <tr>
+    <td style="padding:20px; vertical-align:middle;">
+      <papertitle>TrustRAG: Enhancing Robustness and Trustworthiness in RAG</papertitle><br>
+      <strong>Huichi Zhou*</strong>, Kin-Hei Lee*, Zhonghao Zhan*, Yue Chen, Zhenhao Li, Zhaoyang Wang, Hamed Haddadi, Emine Yilmaz<br>
+      <em>Under Review</em><br>
+      <a href="https://trust-rag.github.io/">project page</a> / <a href="https://arxiv.org/pdf/2501.00879">paper</a> / <a href="https://github.com/HuichiZhou/TrustRAG">code</a>
+      <p>We introduce TrustRAG, a robust Retrieval-Augmented Generation (RAG) framework. It defends against corpus poisoning attacks by a two-stage mechanism: identifying potential attack patterns with K-means clustering and detecting malicious documents via self-assessment.</p>
+    </td>
+  </tr>
 
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://et-seed.github.io/"> -->
-              <papertitle> DiffuseDef: Improve dRobustness to Adversarial Attacks via Iterative Denoising
-              </papertitle>
-              </a>
-              <br>
-              Zhenhao Li,
-	      <strong>Huichi Zhou</strong>, 
-              Marek Rei, 
-	      Lucia Specia
-              <br>
-              <em>ACL 2025</em> 
-              <br> 
-              <a href="https://arxiv.org/abs/2407.00248">paper</a>
-              <p></p>
-              <p> We propose DiffuseDef, an adversarial defense method for language classification tasks. The method inserts a diffusion layer between the encoder and classifier to iteratively denoise adversarially perturbed hidden states. It is evaluated on datasets like AG News, IMDB, and QNLI against both black-box and white-box attacks.  </p>
-            </td>
-          </tr>
+  <!-- Verifiable Format Control -->
+  <tr>
+    <td style="padding:20px; vertical-align:middle;">
+      <papertitle>Verifiable Format Control for Large Language Model Generations</papertitle><br>
+      Zhaoyang Wang*, Jinqi Jiang*, <strong>Huichi Zhou*</strong>, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Huaxiu Yao<br>
+      <em>NAACL 2025 Findings</em><br>
+      <a href="https://arxiv.org/pdf/2502.04498">paper</a> / <a href="https://huggingface.co/datasets/jinqij/VFF">code</a>
+      <p>We introduce VFF, a dataset and training framework that improves the format-following ability of 7B-level LLMs using Python-based verification and progressive training. It enhances LLMs’ ability to follow specific formats (e.g., JSON) through self-generated data and direct preference optimization (DPO).</p>
+    </td>
+  </tr>
 
+  <!-- LLM4RGNN -->
+  <tr>
+    <td style="padding:20px; vertical-align:middle;">
+      <papertitle>Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?</papertitle><br>
+      Zhongjian Zhang*, Xiao Wang*, <strong>Huichi Zhou</strong>, Mengmei Zhang, Cheng Yang, Chuan Shi<br>
+      <em>KDD 2025 Research Track</em><br>
+      <a href="https://arxiv.org/pdf/2408.08685">paper</a> / <a href="https://github.com/zhongjian-zhang/LLM4RGNN">code</a>
+      <p>LLM4RGNN is a framework that enhances the adversarial robustness of Graph Neural Networks (GNNs) using Large Language Models (LLMs). By removing malicious edges and adding important ones identified via distilled GPT-4 inference, it significantly improves GNN performance under adversarial attacks.</p>
+    </td>
+  </tr>
 
-	  
+  <!-- AVLLM -->
+  <tr>
+    <td style="padding:20px; vertical-align:middle;">
+      <papertitle>Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models</papertitle><br>
+      <strong>Huichi Zhou*</strong>, Zhaoyang Wang*, Hongtao Wang, Dongping Chen, Wenhan Mu, Fangyuan Zhang<br>
+      <em>ACL 2024 Findings</em><br>
+      <a href="https://aclanthology.org/2024.findings-acl.292">paper</a> / <a href="https://github.com/HuichiZhou/AVLLM">code</a>
+      <p>AVLLM is a framework for evaluating and improving the validity of word-level adversarial attacks on LLMs. It fine-tunes a lightweight LLM to provide a validity score and explanation, helping to generate semantically consistent adversarial examples.</p>
+    </td>
+  </tr>
 
+  <!-- GUI-World -->
+  <tr>
+    <td style="padding:20px; vertical-align:middle;">
+      <papertitle>GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding</papertitle><br>
+      Dongping Chen, Yue Huang, Siyuan Wu, Jingyu Tang, <strong>Huichi Zhou</strong>, Qihui Zhang, Zhigang He, Yilin Bai, Chujie Gao, Liuyi Chen, Yiqiang Li, Chenlong Wang, Yue Yu, Tianshuo Zhou, Zhen Li, Yi Gui, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun<br>
+      <em>ICLR 2025</em><br>
+      <a href="https://openreview.net/forum?id=QarKTT5brZ">paper</a> / <a href="https://github.com/Dongping-Chen/GUI-World">code</a>
+      <p>GUI-WORLD is a comprehensive video-based benchmark and dataset designed for GUI-oriented multimodal understanding. It includes 12,379 GUI videos across six scenarios and eight question types, addressing challenges faced by existing models.</p>
+    </td>
+  </tr>
 
+  <!-- MLLM-as-a-Judge -->
+  <tr>
+    <td style="padding:20px; vertical-align:middle;">
+      <papertitle>MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark</papertitle><br>
+      Dongping Chen*, Ruoxi Chen*, Shilin Zhang*, Yaochen Wang*, Yinuo Liu*, <strong>Huichi Zhou*</strong>, Qihui Zhang*, Yao Wan, Pan Zhou, Lichao Sun<br>
+      <em>ICML 2024 Oral</em><br>
+      <a href="https://openreview.net/pdf?id=dbFEFHAD79">paper</a> / <a href="https://github.com/Dongping-Chen/MLLM-Judge">code</a>
+      <p>MLLM-as-a-Judge is a benchmark designed to evaluate the judging capabilities of Multimodal Large Language Models (MLLMs) in vision-language tasks. It assesses MLLMs on scoring, pair comparison, and batch ranking across 14 datasets, highlighting consistency and reasoning challenges.</p>
+    </td>
+  </tr>
 
-
-
-		
-          <tr onmouseout="tnnls_stop()" onmouseover="tnnls_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='tnnls_image'>
-                  <img src='images/tnnls.jpg' width="220"></div>
-                <img src='images/tnnls.jpg' width="220">
-              </div>
-              <script type="text/javascript">
-                function tnnls_start() {
-                  document.getElementById('tnnls_image').style.opacity = "1";
-                }
-
-                function tnnls_stop() {
-                  document.getElementById('tnnls_image').style.opacity = "0";
-                }
-                tnnls_stop()
-              </script>
-            </td>
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://et-seed.github.io/"> -->
-              <papertitle> Beyond the Hype: A dispassionate look at vision-language models in medical scenario
-              </papertitle>
-              </a>
-              <br>
-              Yang Nan*,
-	      <strong>Huichi Zhou*</strong>, 
-              Xiaodan Xing, 
-	      Guang Yang
-              <br>
-              <em>IEEE Transactions on Neural Networks and Learning Systems &nbsp&nbsp Impact Factor (10.2)</em> 
-              <br> 
-              <a href="https://arxiv.org/abs/2408.08704">paper</a>
-              <p></p>
-              <p> We introduce RadVUQA, a novel Radiological Visual Understanding and Question Answering benchmark, to comprehensively evaluate existing LVLMs.  </p>
-            </td>
-          </tr>
-
-
-
-          <tr onmouseout="media_stop()" onmouseover="media_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='media_image'>
-                  <img src='images/media.jpg' width="220"></div>
-                <img src='images/media.jpg' width="220">
-              </div>
-              <script type="text/javascript">
-                function media_start() {
-                  document.getElementById('media_image').style.opacity = "1";
-                }
-
-                function media_stop() {
-                  document.getElementById('media_image').style.opacity = "0";
-                }
-                media_stop()
-              </script>
-            </td>
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://et-seed.github.io/"> -->
-              <papertitle> Revisiting Medical Image Retrieval via Knowledge Consolidation
-              </papertitle>
-              </a>
-              <br>
-              Yang Nan,
-	      <strong>Huichi Zhou</strong>, 
-              Xiaodan Xing, 
-              Giorgos Papanastasiou, 
-	      Lei Zhu, 
-	      Zhifan Gao,
-	      Alejandro F Frangi,
-	      Guang Yang
-              <br>
-              <em>Medical Image Analysis &nbsp&nbsp Impact Factor (10.7)</em> 
-              <br> 
-              <a href="https://arxiv.org/pdf/2503.09370">paper</a>
-              <p></p>
-              <p> ACIR (Anomaly-aware Content-based Image Recommendation) is a medical image retrieval framework that enhances accuracy and robustness through multi-level feature fusion (DaRF), structure-aware contrastive hashing (SCH), self-supervised OOD detection, and content-guided ranking. It achieves up to 38.9% improvement in mAP on anatomical datasets over existing methods.  </p>
-            </td>
-          </tr>
-
-
-		
-          <tr onmouseout="trustrag_stop()" onmouseover="trustrag_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='trustrag_image'>
-                  <img src='images/trustrag.jpg' width="220"></div>
-                <img src='images/trustrag.jpg' width="220">
-              </div>
-              <script type="text/javascript">
-                function trustrag_start() {
-                  document.getElementById('trustrag_image').style.opacity = "1";
-                }
-
-                function trustrag_stop() {
-                  document.getElementById('trustrag_image').style.opacity = "0";
-                }
-                trustrag_stop()
-              </script>
-            </td>
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://et-seed.github.io/"> -->
-              <papertitle> TrustRAG: Enhancing Robustness and Trustworthiness in RAG
-              </papertitle>
-              </a>
-              <br>
-              <strong>Huichi Zhou*</strong>,
-              Kin-Hei Lee*, 
-              Zhonghao Zhan*, 
-              Yue Chen,
-              Zhenhao Li, 
-              Zhaoyang Wang,
-              Hamed Haddadi, 
-              Emine Yilmaz
-              <br>
-              <em>Under Review</em>
-              <br> 
-              <a href="https://trust-rag.github.io/">project page</a>
-              /
-              <a href="https://arxiv.org/pdf/2501.00879">paper</a>
-              /
-              <a href="https://github.com/HuichiZhou/TrustRAG">code</a>
-              <p></p>
-              <p> We introduce TrustRAG, a robust Retrieval-Augmented Generation (RAG) framework. It defends against corpus poisoning attacks by a two-stage mechanism: identifying potential attack patterns with K-means clustering and detecting malicious docs via self-assessment.  </p>
-            </td>
-          </tr>
-
-
-          <tr onmouseout="verify_stop()" onmouseover="verify_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='verify_image'>
-                  <img src='images/verify.jpg' width="220"></div>
-                <img src='images/verify.jpg' width="220">
-              </div>
-              <script type="text/javascript">
-                function verify_start() {
-                  document.getElementById('verify_image').style.opacity = "1";
-                }
-
-                function verify_stop() {
-                  document.getElementById('verify_image').style.opacity = "0";
-                }
-                verify_stop()
-              </script>
-            </td>
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://et-seed.github.io/"> -->
-              <papertitle> Verifiable Format Control for Large Language Model Generations
-              </papertitle>
-              </a>
-              <br>
-              Zhaoyang Wang*,
-              Jinqi jiang*, 
-              <strong>Huichi Zhou*</strong>, 
-              Wenhao Zheng,
-              Xuchao Zhang, 
-              Chetan Bansal,
-              Huaxiu Yao
-              <br>
-              <em>NAACL 2025 Findings</em>
-              <br> 
-              <a href="https://arxiv.org/pdf/2502.04498">paper</a>
-              /
-              <a href="https://huggingface.co/datasets/jinqij/VFF">code</a>
-              <p></p>
-              <p> We introduce VFF, which is a dataset and training framework that improves the format-following ability of 7B-level LLMs using Python-based verification and progressive training. It enhances LLMs’ ability to follow specific formats (e.g., JSON) through self-generated data and direct preference optimization (DPO).  </p>
-            </td>
-          </tr>
-	  
-	  <tr onmouseout="_stop()" onmouseover="llm4rgnn_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='llm4rgnn_image'>
-                  <img src='images/llm4rgnn.jpg' width="220"></div>
-                <img src='images/llm4rgnn.jpg' width="220">
-              </div>
-              <script type="text/javascript">
-                function llm4rgnn_start() {
-                  document.getElementById('llm4rgnn_image').style.opacity = "1";
-                }
-
-                function llm4rgnn_stop() {
-                  document.getElementById('llm4rgnn_image').style.opacity = "0";
-                }
-                llm4rgnn_stop()
-              </script>
-            </td>
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://et-seed.github.io/"> -->
-              <papertitle> Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?
-              </papertitle>
-              </a>
-              <br>
-              Zhongjian Zhang*, 
-              Xiao Wang*, 
-              <strong>Huichi Zhou</strong>, 
-              Mengmei Zhang,
-              Cheng Yang, 
-              Chuan Shi
-              <br>
-              <em>KDD 2025 Research Track</em>
-              <br> 
-              <a href="https://arxiv.org/pdf/2408.08685">paper</a>
-              /
-              <a href="https://github.com/zhongjian-zhang/LLM4RGNN">code</a>
-              <p></p>
-              <p> LLM4RGNN is a framework that enhances the adversarial robustness of Graph Neural Networks (GNNs) using Large Language Models (LLMs). It distills the inference capability of GPT-4 into a local LLM to identify malicious edges and trains an LM-based edge predictor to find missing important edges. By removing malicious edges and adding important ones, LLM4RGNN significantly improves GNN performance under adversarial attacks, outperforming existing robust GNN frameworks in various datasets and attack scenarios.  </p>
-            </td>
-          </tr>
-
-
-	  
-	  <tr onmouseout="avllm_stop()" onmouseover="avllm_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='avllm_image'>
-                  <img src='images/avllm.jpg' width="220"></div>
-                <img src='images/avllm.jpg' width="220">
-              </div>
-              <script type="text/javascript">
-                function avllm_start() {
-                  document.getElementById('avllm_image').style.opacity = "1";
-                }
-
-                function avllm_stop() {
-                  document.getElementById('avllm_image').style.opacity = "0";
-                }
-                avllm_stop()
-              </script>
-            </td>
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://et-seed.github.io/"> -->
-              <papertitle> Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models
-              </papertitle>
-              </a>
-              <br>
-              <strong>Huichi Zhou*</strong>, 
-              Zhaoyang Wang*, 
-              Hongtao Wang, 
-              Dongping Chen,
-              Wenhan Mu, 
-              Fangyuan Zhang
-              <br>
-              <em>ACL 2024 Findings</em>
-              <br> 
-              <a href="https://aclanthology.org/2024.findings-acl.292">paper</a>
-              /
-              <a href="https://github.com/HuichiZhou/AVLLM">code</a>
-              <p></p>
-              <p> AVLLM is a framework for evaluating and improving the validity of word-level adversarial attacks on LLMs. It fine-tunes a lightweight LLM to provide a validity score and explanation, helping to generate semantically consistent adversarial examples. AVLLM improves attack quality and consistency through enhanced semantic understanding.  </p>
-            </td>
-          </tr>
-
-	  	  
-	  <tr onmouseout="guiworld_stop()" onmouseover="guiworld_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='guiworld_image'>
-                  <img src='images/guiworld.jpg' width="220"></div>
-                <img src='images/guiworld.jpg' width="220">
-              </div>
-              <script type="text/javascript">
-                function guiworld_start() {
-                  document.getElementById('guiworld_image').style.opacity = "1";
-                }
-
-                function guiworld_stop() {
-                  document.getElementById('guiworld_image').style.opacity = "0";
-                }
-                guiworld_stop()
-              </script>
-            </td>
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://et-seed.github.io/"> -->
-              <papertitle> GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding
-              </papertitle>
-              </a>
-              <br>
-              Dongping Chen, Yue Huang, Siyuan Wu, Jingyu Tang, <strong>Huichi Zhou</strong>, Qihui Zhang, Zhigang He, Yilin Bai, Chujie Gao, Liuyi Chen, Yiqiang Li, Chenlong Wang, Yue Yu, Tianshuo Zhou, Zhen Li, Yi Gui, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun
-              <br>
-              <em>ICLR 2025</em>
-              <br> 
-              <a href="https://openreview.net/forum?id=QarKTT5brZ">paper</a>
-              /
-              <a href="https://github.com/Dongping-Chen/GUI-World">code</a>
-              <p></p>
-              <p> GUI-WORLD is a comprehensive video-based benchmark and dataset designed for GUI-oriented multimodal understanding. It includes 12,379 GUI videos covering six scenarios (e.g., software, websites, mobile, XR) and eight question types. The dataset captures dynamic and sequential GUI content, addressing challenges faced by existing models. The paper introduces GUI-VID, a fine-tuned Video LLM that improves dynamic GUI understanding but highlights that current models still struggle with complex GUI tasks.  </p>
-            </td>
-          </tr>
-
-
-
-	  <tr onmouseout="mllmjudge_stop()" onmouseover="mllmjudge_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='mllmjudge_image'>
-                  <img src='images/mllmjudge.jpg' width="220"></div>
-                <img src='images/mllmjudge.jpg' width="220">
-              </div>
-              <script type="text/javascript">
-                function mllmjudge_start() {
-                  document.getElementById('mllmjudge_image').style.opacity = "1";
-                }
-
-                function guiworld_stop() {
-                  document.getElementById('mllmjudge_image').style.opacity = "0";
-                }
-                mllmjudge_stop()
-              </script>
-            </td>
-
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://et-seed.github.io/"> -->
-              <papertitle> MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark
-              </papertitle>
-              </a>
-              <br>
-		Dongping Chen*, Ruoxi Chen*, Shilin Zhang*, Yaochen Wang*, Yinuo Liu*,  <strong>Huichi Zhou*</strong>, Qihui Zhang*, Yao Wan, Pan Zhou, Lichao Sun
-              <br>
-              <em>ICML 2024 Oral</em>
-              <br> 
-              <a href="https://openreview.net/pdf?id=dbFEFHAD79">paper</a>
-              /
-              <a href="https://github.com/Dongping-Chen/MLLM-Judge">code</a>
-              <p></p>
-              <p> MLLM-as-a-Judge is a benchmark designed to evaluate the judging capabilities of Multimodal Large Language Models (MLLMs) in vision-language tasks. It assesses MLLMs on Scoring Evaluation, Pair Comparison, and Batch Ranking across 14 datasets. Results show that while MLLMs align well with human judgments in pair comparison, they struggle with scoring and batch ranking due to biases and hallucinations. GPT-4V performs best, but the study highlights the need for improvements in consistency and reasoning.  </p>
-            </td>
-          </tr>
+</table>
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
           <tr>

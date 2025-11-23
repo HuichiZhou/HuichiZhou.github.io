@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <table style="width:100%;max-width:1200px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -22,22 +22,22 @@
                 <name>Huichi Zhou</name>
               </p>
               <p>
-				I am a PhD student at University College London (UCL), advised by Professor <a href="https://scholar.google.com/citations?hl=en&user=wIE1tY4AAAAJ&view_op=list_works" target="_blank">Jun Wang</a>.
-				Previously, I was a graduate student at <a href="https://www.imperial.ac.uk/">Imperial College London</a> with
-                YangLab advised by Professor <a href="https://scholar.google.com.mx/citations?hl=zh-CN&user=ZfzEFpsAAAAJ&view_op=list_works">Guang Yang</a>.
+				I am a PhD student at <strong><a href="https://www.ucl.ac.uk/" target="_blank">University College London</a></strong>, advised by Professor <strong><a href="https://scholar.google.com/citations?hl=en&user=wIE1tY4AAAAJ&view_op=list_works" target="_blank">Jun Wang</a></strong>.
+				Previously, I was a graduate student at <strong><a href="https://www.imperial.ac.uk/" target="_blank">Imperial College London</a></strong> with
+                YangLab advised by Professor <strong><a href="https://scholar.google.com.mx/citations?hl=zh-CN&user=ZfzEFpsAAAAJ&view_op=list_works" target="_blank">Guang Yang</a></strong>.
               </p>
               <p>
-                My research interest is broadly in Adversarial Machine Learning and Large Language Models.
+                <span id="typing-text" class="typing-effect"></span><span class="typing-cursor">|</span>
 	      </p>
               <p>
-                📚 <strong><span id="citation-count-inline">150+</span></strong> citations | 📝 <strong>14</strong> publications
+                📚 <strong><span id="citation-count-inline">0</span></strong> citations
               </p>
               <p>
-                Email: h.zhou24 [at] imperial.ac.uk
+                Email: huichi.zhou.25[at]ucl.ac.uk
               </p>
 	      <p style="text-align:center;">
-                <a href="https://github.com/HuichiZhou" target="_blank">🐙 Github</a>
-                <a href="https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en" target="_blank">🎓 Google Scholar</a>
+                <a href="https://github.com/HuichiZhou" target="_blank" class="social-link">🐙 Github</a>
+                <a href="https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en" target="_blank" class="social-link">🎓 Google Scholar</a>
               </p>
 
 
@@ -48,6 +48,21 @@
 		  
           </tr>
         </tbody></table>
+
+        <!-- Research Areas Visualization -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research Areas</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <div style="max-width:1200px;margin:20px auto;">
+          <div id="research-graph" style="width:100%;height:400px;background:rgba(255,255,255,0.6);border-radius:15px;box-shadow:0 5px 15px rgba(0,0,0,0.08);position:relative;overflow:hidden;">
+            <svg width="100%" height="100%" id="research-svg"></svg>
+          </div>
+        </div>
 
         <!-- Publications Section -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -68,9 +83,9 @@
               <span class="category-icon">🤖</span>
               <span class="category-title">Trustworthy AI & Large Language Models</span>
               <span class="category-count">7 papers</span>
-              <span class="toggle-icon" id="llm-toggle">▼</span>
+              <span class="toggle-icon rotated" id="llm-toggle">▼</span>
             </div>
-            <div class="category-content" id="llm-content">
+            <div class="category-content collapsed" id="llm-content">
 
               <!-- Memento -->
               <div class="paper-card" data-github="Agent-on-the-Fly/Memento">
@@ -79,7 +94,7 @@
                 <div class="paper-authors"><strong>Huichi Zhou</strong>, Yihang Chen, Siyuan Guo, Xue Yan, Kin Hei Lee, Zihan Wang, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang, Jun Wang</div>
                 <div class="paper-venue">arXiv 2025/8</div>
                 <div class="paper-links">
-                  <a href="#" target="_blank">📄 Paper</a>
+                  <a href="https://arxiv.org/abs/2508.16153" target="_blank">📄 Paper</a>
                   <a href="https://github.com/Agent-on-the-Fly/Memento" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="Agent-on-the-Fly/Memento">⭐ --</span></a>
                 </div>
               </div>
@@ -163,9 +178,9 @@
               <span class="category-icon">🕸️</span>
               <span class="category-title">Graph Neural Networks & Adversarial Robustness</span>
               <span class="category-count">2 papers</span>
-              <span class="toggle-icon" id="gnn-toggle">▼</span>
+              <span class="toggle-icon rotated" id="gnn-toggle">▼</span>
             </div>
-            <div class="category-content" id="gnn-content">
+            <div class="category-content collapsed" id="gnn-content">
 
               <!-- GNN-NIDS -->
               <div class="paper-card">
@@ -199,9 +214,9 @@
               <span class="category-icon">🏥</span>
               <span class="category-title">Medical AI & Vision-Language Models</span>
               <span class="category-count">2 papers</span>
-              <span class="toggle-icon" id="medical-toggle">▼</span>
+              <span class="toggle-icon rotated" id="medical-toggle">▼</span>
             </div>
-            <div class="category-content" id="medical-content">
+            <div class="category-content collapsed" id="medical-content">
 
               <!-- Beyond the Hype -->
               <div class="paper-card">
@@ -234,9 +249,9 @@
               <span class="category-icon">🎨</span>
               <span class="category-title">Multimodal AI & Evaluation</span>
               <span class="category-count">2 papers</span>
-              <span class="toggle-icon" id="multimodal-toggle">▼</span>
+              <span class="toggle-icon rotated" id="multimodal-toggle">▼</span>
             </div>
-            <div class="category-content" id="multimodal-content">
+            <div class="category-content collapsed" id="multimodal-content">
 
               <!-- GUI-World -->
               <div class="paper-card" data-github="Dongping-Chen/GUI-World">
@@ -268,107 +283,153 @@
         </div>
 
 
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Reviewer Services</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td width="75%" valign="center">
-              ICLR 2025
-              <br>
-              ACL ARR 2024-2025
-              <br>
-              <!-- Volunteer: <a href="images/wine2020.pdf">WINE <em>2020</em></a> -->
-            </td>
-          </tr>
-        </tbody></table>
-
-
-        <!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Teaching</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-
-          <tr>
-            <td width="75%" valign="center">
-                Teaching Assistant:
-            <br>
-              &nbsp &nbsp &nbsp <a href="https://deep-generative-models.github.io/">Deep Generative Models</a>, <em> 2020, 2022 </em>
-            <br>
-                Guest Lecturer:
-            <br>
-              &nbsp &nbsp &nbsp Frontier Computing Research Practice (Course of Open Source Development), <em> 2024 </em>
-            <br>
-              &nbsp &nbsp &nbsp Introduction to Computing (Course of Dynamic Programming), <em> 2024 </em>
-            </td>
-          </tr>
-
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Invited Talks</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td width="75%" valign="center">
-              Learning 3D Visual Representations for Robotic Manipulation,
-              <br>
-              &nbsp &nbsp &nbsp <em>National University of Singapore, Feb. 2025</em>
-              <br>
-              &nbsp &nbsp &nbsp <em>Beijing Normal University, Shanghai Tech University, TeleAI, Jan. 2025</em>
-              <br>
-              &nbsp &nbsp &nbsp <em>Tsinghua University, Johns Hopkins University, Carnegie Mellon University, Dec. 2024</em>
-              <br>
-              &nbsp &nbsp &nbsp <em>University of Hong Kong, Nov. 2024</em>
-              <br>
-              Unified Simulation, Benchmark and Manipulation for Garments, &nbsp&nbsp&nbsp  <em><a href="https://anysyn3d.github.io/about.html">AnySyn3D</a>, 2024</em>
-              <br>
-                &nbsp &nbsp &nbsp --- If you are interested in 3D Vision research, welcome to follow <a href="https://anysyn3d.github.io/about.html">AnySyn3D</a> that conducts various topics.
-              <br>
-              Visual Representations for Embodied Agent, &nbsp&nbsp&nbsp  <em>Chinese University of Hong Kong, Shenzhen, 2024</em>
-              <br>
-              <a href="http://www.csig3dv.net/2024/studentFotum.html">Visual Representations for Embodied Agent</a>, &nbsp&nbsp&nbsp  <em>China3DV, 2024</em>
-              <br>
-            </td>
-          </tr>
-
-        </tbody></table> -->
-
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
-          <tr>
-            <td>
-              <heading>Honors and Awards</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
-          <tr>
-            <td width="75%" valign="center">
-              Chinese National Scholarship (top1%)  <em> 2023</em>
-              <br>
-              Excellent Graduation Thesis Award (top1%) <em> 2024 </em>
-              <br>
-            </td>
-          </tr>
-
-        </tbody></table>
       </td>
     </tr>
   </table>
 
   <script>
+    // Typing effect for research interest
+    const typingText = "My research interest is broadly in Adversarial Machine Learning and Large Language Models.";
+    const typingElement = document.getElementById('typing-text');
+    let charIndex = 0;
+
+    function typeWriter() {
+      if (charIndex < typingText.length) {
+        typingElement.textContent += typingText.charAt(charIndex);
+        charIndex++;
+        setTimeout(typeWriter, 50);
+      } else {
+        // Remove cursor after typing is done
+        setTimeout(() => {
+          const cursor = document.querySelector('.typing-cursor');
+          if (cursor) cursor.style.display = 'none';
+        }, 1000);
+      }
+    }
+
+    // Start typing effect after page loads
+    window.addEventListener('load', () => {
+      setTimeout(typeWriter, 500);
+    });
+
+    // Research areas graph visualization
+    function createResearchGraph() {
+      const svg = document.getElementById('research-svg');
+      const container = document.getElementById('research-graph');
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+
+      // Define research nodes
+      const nodes = [
+        { id: 'center', label: 'AI Research', x: width/2, y: height/2, size: 60, color: '#667eea' },
+        { id: 'llm', label: 'Large Language\nModels', x: width*0.3, y: height*0.25, size: 50, color: '#764ba2' },
+        { id: 'adversarial', label: 'Adversarial\nML', x: width*0.7, y: height*0.25, size: 50, color: '#f093fb' },
+        { id: 'trustworthy', label: 'Trustworthy\nAI', x: width*0.2, y: height*0.65, size: 45, color: '#4facfe' },
+        { id: 'gnn', label: 'Graph Neural\nNetworks', x: width*0.5, y: height*0.8, size: 45, color: '#fa709a' },
+        { id: 'medical', label: 'Medical AI', x: width*0.8, y: height*0.65, size: 45, color: '#a8edea' }
+      ];
+
+      // Define connections
+      const connections = [
+        { from: 'center', to: 'llm' },
+        { from: 'center', to: 'adversarial' },
+        { from: 'center', to: 'trustworthy' },
+        { from: 'center', to: 'gnn' },
+        { from: 'center', to: 'medical' },
+        { from: 'llm', to: 'trustworthy' },
+        { from: 'adversarial', to: 'trustworthy' },
+        { from: 'adversarial', to: 'gnn' },
+        { from: 'llm', to: 'medical' }
+      ];
+
+      // Draw connections
+      connections.forEach(conn => {
+        const fromNode = nodes.find(n => n.id === conn.from);
+        const toNode = nodes.find(n => n.id === conn.to);
+
+        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+        line.setAttribute('x1', fromNode.x);
+        line.setAttribute('y1', fromNode.y);
+        line.setAttribute('x2', toNode.x);
+        line.setAttribute('y2', toNode.y);
+        line.setAttribute('stroke', '#667eea');
+        line.setAttribute('stroke-width', '2');
+        line.setAttribute('opacity', '0.3');
+        line.classList.add('graph-connection');
+        svg.appendChild(line);
+      });
+
+      // Draw nodes
+      nodes.forEach(node => {
+        const group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        group.classList.add('graph-node');
+        group.setAttribute('data-node', node.id);
+
+        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+        circle.setAttribute('cx', node.x);
+        circle.setAttribute('cy', node.y);
+        circle.setAttribute('r', node.size);
+        circle.setAttribute('fill', node.color);
+        circle.setAttribute('opacity', '0.8');
+        circle.style.cursor = 'pointer';
+
+        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        text.setAttribute('x', node.x);
+        text.setAttribute('y', node.y);
+        text.setAttribute('text-anchor', 'middle');
+        text.setAttribute('dominant-baseline', 'middle');
+        text.setAttribute('fill', 'white');
+        text.setAttribute('font-size', node.id === 'center' ? '16' : '13');
+        text.setAttribute('font-weight', 'bold');
+        text.style.pointerEvents = 'none';
+
+        // Handle multi-line text
+        const lines = node.label.split('\n');
+        if (lines.length > 1) {
+          lines.forEach((line, i) => {
+            const tspan = document.createElementNS('http://www.w3.org/2000/svg', 'tspan');
+            tspan.setAttribute('x', node.x);
+            tspan.setAttribute('y', node.y + (i - (lines.length - 1) / 2) * 15);
+            tspan.textContent = line;
+            text.appendChild(tspan);
+          });
+        } else {
+          text.textContent = node.label;
+        }
+
+        group.appendChild(circle);
+        group.appendChild(text);
+        svg.appendChild(group);
+
+        // Add hover effect
+        group.addEventListener('mouseenter', () => {
+          circle.setAttribute('r', node.size * 1.2);
+          circle.setAttribute('opacity', '1');
+        });
+
+        group.addEventListener('mouseleave', () => {
+          circle.setAttribute('r', node.size);
+          circle.setAttribute('opacity', '0.8');
+        });
+      });
+
+      // Animate nodes on load
+      setTimeout(() => {
+        const graphNodes = document.querySelectorAll('.graph-node');
+        graphNodes.forEach((node, index) => {
+          setTimeout(() => {
+            node.style.opacity = '0';
+            node.style.transform = 'scale(0)';
+            node.style.transition = 'all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)';
+            setTimeout(() => {
+              node.style.opacity = '1';
+              node.style.transform = 'scale(1)';
+            }, 50);
+          }, index * 100);
+        });
+      }, 500);
+    }
+
     // Toggle category collapse/expand
     function toggleCategory(categoryId) {
       const content = document.getElementById(categoryId + '-content');
@@ -429,7 +490,7 @@
               if (!isNaN(citations)) {
                 const citationsElement = document.getElementById('citation-count-inline');
                 if (citationsElement) {
-                  citationsElement.textContent = citations;
+                  animateNumber(citationsElement, citations);
                 }
                 return;
               }
@@ -444,7 +505,7 @@
           const citations = parseInt(citationMatch[1]);
           const citationsElement = document.getElementById('citation-count-inline');
           if (citationsElement) {
-            citationsElement.textContent = citations;
+            animateNumber(citationsElement, citations);
           }
           return;
         }
@@ -452,10 +513,10 @@
         console.error('Error fetching Scholar citations:', error);
       }
 
-      // Fallback: Keep default display
+      // Fallback: Animate to default value
       const citationsElement = document.getElementById('citation-count-inline');
-      if (citationsElement && citationsElement.textContent === 'Loading...') {
-        citationsElement.textContent = '150+';
+      if (citationsElement && citationsElement.textContent === '0') {
+        animateNumber(citationsElement, 150);
       }
     }
 
@@ -496,16 +557,19 @@
       const timer = setInterval(() => {
         current += increment;
         if (current >= target) {
-          element.textContent = target.toLocaleString();
+          element.textContent = Math.floor(target);
           clearInterval(timer);
         } else {
-          element.textContent = Math.floor(current).toLocaleString();
+          element.textContent = Math.floor(current);
         }
       }, 16);
     }
 
     // Smooth scroll reveal animations
     document.addEventListener('DOMContentLoaded', function() {
+      // Create research graph
+      createResearchGraph();
+
       // Fetch stats
       fetchAllGitHubStars();
       fetchScholarCitations();

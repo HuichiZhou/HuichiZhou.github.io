@@ -204,29 +204,13 @@ a {
   color: var(--primary-color);
   text-decoration: none;
   position: relative;
-  transition: all 0.3s ease;
-}
-
-a::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: var(--bg-gradient);
-  transition: width 0.3s ease;
-}
-
-a:hover::after {
-  width: 100%;
+  transition: color 0.3s ease;
 }
 
 a:focus,
 a:hover {
   color: var(--secondary-color);
   text-decoration: none;
-  transform: translateY(-2px);
 }
 
 /* ===== Profile Image ===== */
@@ -315,7 +299,7 @@ table table tr td a::after {
 }
 
 /* ===== Social Links ===== */
-p a {
+.social-link {
   display: inline-block;
   padding: 8px 20px;
   margin: 5px;
@@ -329,7 +313,7 @@ p a {
   overflow: hidden;
 }
 
-p a::before {
+.social-link::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -342,17 +326,17 @@ p a::before {
   transition: width 0.6s, height 0.6s;
 }
 
-p a:hover::before {
+.social-link:hover::before {
   width: 300px;
   height: 300px;
 }
 
-p a:hover {
+.social-link:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(102, 126, 234, 0.5);
 }
 
-p a::after {
+.social-link::after {
   display: none;
 }
 
@@ -447,6 +431,40 @@ span.highlight {
 
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+/* ===== Typing Effect ===== */
+.typing-effect {
+  display: inline;
+}
+
+.typing-cursor {
+  display: inline;
+  animation: blink 1s infinite;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+/* ===== Research Graph Styles ===== */
+.graph-node {
+  transition: all 0.3s ease;
+}
+
+.graph-node:hover {
+  filter: brightness(1.2);
+}
+
+.graph-connection {
+  transition: all 0.3s ease;
+}
+
+#research-graph:hover .graph-connection {
+  opacity: 0.6 !important;
 }
 
 /* ===== Stats Cards ===== */

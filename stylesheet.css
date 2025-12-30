@@ -676,24 +676,43 @@ span.highlight {
   display: none;
 }
 
-/* ===== Cool Tone Category ===== */
-.category-cool-tone .category-header {
-  background: linear-gradient(135deg, rgba(79, 172, 254, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);
+/* ===== Dark Tone Category (Black Theme) ===== */
+.category-dark-tone {
+  background: rgba(30, 30, 30, 0.8);
 }
 
-.category-cool-tone .category-header:hover {
-  background: linear-gradient(135deg, rgba(79, 172, 254, 0.25) 0%, rgba(0, 242, 254, 0.25) 100%);
+.category-dark-tone:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
-.category-cool-tone .category-title {
-  color: #2196f3;
+.category-dark-tone .category-header {
+  background: linear-gradient(135deg, rgba(20, 20, 20, 0.9) 0%, rgba(40, 40, 40, 0.9) 100%);
 }
 
-.category-cool-tone .toggle-icon {
-  color: #2196f3;
+.category-dark-tone .category-header:hover {
+  background: linear-gradient(135deg, rgba(30, 30, 30, 0.95) 0%, rgba(50, 50, 50, 0.95) 100%);
 }
 
-.category-cool-tone .paper-card:hover {
-  border-left-color: #2196f3;
-  box-shadow: 0 8px 20px rgba(33, 150, 243, 0.2);
+.category-dark-tone .category-title {
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.category-dark-tone .toggle-icon {
+  color: #ffffff;
+}
+
+.category-dark-tone .category-count {
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.category-dark-tone .paper-card {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.category-dark-tone .paper-card:hover {
+  border-left-color: #333333;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }

@@ -450,23 +450,6 @@ span.highlight {
   50%, 100% { opacity: 0; }
 }
 
-/* ===== Research Graph Styles ===== */
-.graph-node {
-  transition: all 0.3s ease;
-}
-
-.graph-node:hover {
-  filter: brightness(1.2);
-}
-
-.graph-connection {
-  transition: all 0.3s ease;
-}
-
-#research-graph:hover .graph-connection {
-  opacity: 0.6 !important;
-}
-
 /* ===== Stats Cards ===== */
 .stat-card {
   background: rgba(255, 255, 255, 0.8);
@@ -691,4 +674,26 @@ span.highlight {
 
 .paper-links a::after {
   display: none;
+}
+
+/* ===== Cool Tone Category ===== */
+.category-cool-tone .category-header {
+  background: linear-gradient(135deg, rgba(79, 172, 254, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%);
+}
+
+.category-cool-tone .category-header:hover {
+  background: linear-gradient(135deg, rgba(79, 172, 254, 0.25) 0%, rgba(0, 242, 254, 0.25) 100%);
+}
+
+.category-cool-tone .category-title {
+  color: #2196f3;
+}
+
+.category-cool-tone .toggle-icon {
+  color: #2196f3;
+}
+
+.category-cool-tone .paper-card:hover {
+  border-left-color: #2196f3;
+  box-shadow: 0 8px 20px rgba(33, 150, 243, 0.2);
 }

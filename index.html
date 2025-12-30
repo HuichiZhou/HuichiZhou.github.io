@@ -49,21 +49,6 @@
           </tr>
         </tbody></table>
 
-        <!-- Research Areas Visualization -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research Areas</heading>
-            </td>
-          </tr>
-        </tbody></table>
-
-        <div style="max-width:1200px;margin:20px auto;">
-          <div id="research-graph" style="width:100%;height:400px;background:rgba(255,255,255,0.6);border-radius:15px;box-shadow:0 5px 15px rgba(0,0,0,0.08);position:relative;overflow:hidden;">
-            <svg width="100%" height="100%" id="research-svg"></svg>
-          </div>
-        </div>
-
         <!-- Publications Section -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
@@ -77,38 +62,35 @@
         <!-- Research Categories -->
         <div style="max-width:800px;margin:0 auto;">
 
-          <!-- Category: Trustworthy AI & LLMs -->
+          <!-- Category: Medical AI -->
           <div class="category-section">
-            <div class="category-header" onclick="toggleCategory('llm')">
-              <span class="category-icon">🤖</span>
-              <span class="category-title">Trustworthy AI & Large Language Models</span>
-              <span class="category-count">7 papers</span>
-              <span class="toggle-icon rotated" id="llm-toggle">▼</span>
+            <div class="category-header" onclick="toggleCategory('medical')">
+              <span class="category-icon">🏥</span>
+              <span class="category-title">Medical AI & Vision-Language Models</span>
+              <span class="category-count">4 papers</span>
+              <span class="toggle-icon rotated" id="medical-toggle">▼</span>
             </div>
-            <div class="category-content collapsed" id="llm-content">
+            <div class="category-content collapsed" id="medical-content">
 
-              <!-- Memento -->
-              <div class="paper-card" data-github="Agent-on-the-Fly/Memento">
-                <div class="paper-badge preprint">Preprint</div>
-                <papertitle>Memento: Fine-tuning LLM Agents without Fine-tuning LLMs</papertitle>
-                <div class="paper-authors"><strong>Huichi Zhou</strong>, Yihang Chen, Siyuan Guo, Xue Yan, Kin Hei Lee, Zihan Wang, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang, Jun Wang</div>
-                <div class="paper-venue">arXiv 2025/8</div>
+              <!-- Beyond the Hype -->
+              <div class="paper-card">
+                <div class="paper-badge journal">Journal</div>
+                <papertitle>Beyond the Hype: A Dispassionate Look at Vision-Language Models in Medical Scenario</papertitle>
+                <div class="paper-authors">Yang Nan*, <strong>Huichi Zhou*</strong>, Xiaodan Xing, Guang Yang</div>
+                <div class="paper-venue">IEEE TNNLS (Impact Factor: 10.2)</div>
                 <div class="paper-links">
-                  <a href="https://arxiv.org/abs/2508.16153" target="_blank">📄 Paper</a>
-                  <a href="https://github.com/Agent-on-the-Fly/Memento" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="Agent-on-the-Fly/Memento">⭐ --</span></a>
+                  <a href="https://arxiv.org/abs/2408.08704" target="_blank">📄 Paper</a>
                 </div>
               </div>
 
-              <!-- TrustRAG AAAI Workshop -->
-              <div class="paper-card" data-github="HuichiZhou/TrustRAG">
-                <div class="paper-badge workshop">Workshop</div>
-                <papertitle>TrustRAG: Enhancing Robustness and Trustworthiness in RAG</papertitle>
-                <div class="paper-authors"><strong>Huichi Zhou*</strong>, Kin-Hei Lee*, Zhonghao Zhan*, Yue Chen, Zhenhao Li, Zhaoyang Wang, Hamed Haddadi, Emine Yilmaz</div>
-                <div class="paper-venue">AAAI 2026 Workshop on Trust and Control in Agentic AI (TrustAgent)</div>
+              <!-- Medical Image Retrieval -->
+              <div class="paper-card">
+                <div class="paper-badge journal">Journal</div>
+                <papertitle>Revisiting Medical Image Retrieval via Knowledge Consolidation</papertitle>
+                <div class="paper-authors">Yang Nan, <strong>Huichi Zhou</strong>, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan Gao, Alejandro F. Frangi, Guang Yang</div>
+                <div class="paper-venue">Medical Image Analysis (Impact Factor: 10.7)</div>
                 <div class="paper-links">
-                  <a href="https://trust-rag.github.io/" target="_blank">🌐 Project</a>
-                  <a href="https://arxiv.org/pdf/2501.00879" target="_blank">📄 Paper</a>
-                  <a href="https://github.com/HuichiZhou/TrustRAG" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="HuichiZhou/TrustRAG">⭐ --</span></a>
+                  <a href="https://arxiv.org/pdf/2503.09370" target="_blank">📄 Paper</a>
                 </div>
               </div>
 
@@ -120,6 +102,43 @@
                 <div class="paper-venue">AAAI 2026 - The Fortieth AAAI Conference on Artificial Intelligence</div>
                 <div class="paper-links">
                   <a href="#" target="_blank">📄 Paper</a>
+                </div>
+              </div>
+
+              <!-- Reason Like a Radiologist -->
+              <div class="paper-card">
+                <div class="paper-badge journal">Journal</div>
+                <papertitle>Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation</papertitle>
+                <div class="paper-authors">Peiyuan Jing, Kinhei Lee, Zhenxuan Zhang, <strong>Huichi Zhou</strong>, Zhengqing Yuan, Zhifan Gao, Lei Zhu, Giorgos Papanastasiou, Yingying Fang, Guang Yang</div>
+                <div class="paper-venue">Medical Image Analysis (Impact Factor: 10.7)</div>
+                <div class="paper-links">
+                  <a href="https://www.sciencedirect.com/science/article/pii/S1361841525004566" target="_blank">📄 Paper</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Category: AI Safety -->
+          <div class="category-section">
+            <div class="category-header" onclick="toggleCategory('aisafety')">
+              <span class="category-icon">🛡️</span>
+              <span class="category-title">AI Safety & Adversarial Robustness</span>
+              <span class="category-count">6 papers</span>
+              <span class="toggle-icon rotated" id="aisafety-toggle">▼</span>
+            </div>
+            <div class="category-content collapsed" id="aisafety-content">
+
+              <!-- TrustRAG AAAI Workshop -->
+              <div class="paper-card" data-github="HuichiZhou/TrustRAG">
+                <div class="paper-badge workshop">Workshop</div>
+                <papertitle>TrustRAG: Enhancing Robustness and Trustworthiness in RAG</papertitle>
+                <div class="paper-authors"><strong>Huichi Zhou*</strong>, Kin-Hei Lee*, Zhonghao Zhan*, Yue Chen, Zhenhao Li, Zhaoyang Wang, Hamed Haddadi, Emine Yilmaz</div>
+                <div class="paper-venue">AAAI 2026 Workshop on Trust and Control in Agentic AI (TrustAgent)</div>
+                <div class="paper-links">
+                  <a href="https://trust-rag.github.io/" target="_blank">🌐 Project</a>
+                  <a href="https://arxiv.org/pdf/2501.00879" target="_blank">📄 Paper</a>
+                  <a href="https://github.com/HuichiZhou/TrustRAG" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="HuichiZhou/TrustRAG">⭐ --</span></a>
                 </div>
               </div>
 
@@ -145,18 +164,6 @@
                 </div>
               </div>
 
-              <!-- Verifiable Format Control -->
-              <div class="paper-card" data-github="jinqij/VFF">
-                <div class="paper-badge conference">Conference</div>
-                <papertitle>Verifiable Format Control for Large Language Model Generations</papertitle>
-                <div class="paper-authors">Zhaoyang Wang*, Jinqi Jiang*, <strong>Huichi Zhou*</strong>, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Huaxiu Yao</div>
-                <div class="paper-venue">NAACL 2025 Findings</div>
-                <div class="paper-links">
-                  <a href="https://arxiv.org/pdf/2502.04498" target="_blank">📄 Paper</a>
-                  <a href="https://huggingface.co/datasets/jinqij/VFF" target="_blank">💻 Code</a>
-                </div>
-              </div>
-
               <!-- AVLLM -->
               <div class="paper-card" data-github="HuichiZhou/AVLLM">
                 <div class="paper-badge conference">Conference</div>
@@ -168,19 +175,6 @@
                   <a href="https://github.com/HuichiZhou/AVLLM" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="HuichiZhou/AVLLM">⭐ --</span></a>
                 </div>
               </div>
-
-            </div>
-          </div>
-
-          <!-- Category: Graph Neural Networks -->
-          <div class="category-section">
-            <div class="category-header" onclick="toggleCategory('gnn')">
-              <span class="category-icon">🕸️</span>
-              <span class="category-title">Graph Neural Networks & Adversarial Robustness</span>
-              <span class="category-count">2 papers</span>
-              <span class="toggle-icon rotated" id="gnn-toggle">▼</span>
-            </div>
-            <div class="category-content collapsed" id="gnn-content">
 
               <!-- GNN-NIDS -->
               <div class="paper-card">
@@ -208,50 +202,27 @@
             </div>
           </div>
 
-          <!-- Category: Medical AI -->
-          <div class="category-section">
-            <div class="category-header" onclick="toggleCategory('medical')">
-              <span class="category-icon">🏥</span>
-              <span class="category-title">Medical AI & Vision-Language Models</span>
-              <span class="category-count">2 papers</span>
-              <span class="toggle-icon rotated" id="medical-toggle">▼</span>
+          <!-- Category: LLM Agents -->
+          <div class="category-section category-cool-tone">
+            <div class="category-header" onclick="toggleCategory('llmagents')">
+              <span class="category-icon">🤖</span>
+              <span class="category-title">LLM Agents & Multimodal Understanding</span>
+              <span class="category-count">3 papers</span>
+              <span class="toggle-icon rotated" id="llmagents-toggle">▼</span>
             </div>
-            <div class="category-content collapsed" id="medical-content">
+            <div class="category-content collapsed" id="llmagents-content">
 
-              <!-- Beyond the Hype -->
-              <div class="paper-card">
-                <div class="paper-badge journal">Journal</div>
-                <papertitle>Beyond the Hype: A Dispassionate Look at Vision-Language Models in Medical Scenario</papertitle>
-                <div class="paper-authors">Yang Nan*, <strong>Huichi Zhou*</strong>, Xiaodan Xing, Guang Yang</div>
-                <div class="paper-venue">IEEE TNNLS (Impact Factor: 10.2)</div>
+              <!-- MLLM-as-a-Judge -->
+              <div class="paper-card" data-github="Dongping-Chen/MLLM-Judge">
+                <div class="paper-badge oral">Oral</div>
+                <papertitle>MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark</papertitle>
+                <div class="paper-authors">Dongping Chen*, Ruoxi Chen*, Shilin Zhang*, Yaochen Wang*, Yinuo Liu*, <strong>Huichi Zhou*</strong>, Qihui Zhang*, Yao Wan, Pan Zhou, Lichao Sun</div>
+                <div class="paper-venue">ICML 2024 Oral</div>
                 <div class="paper-links">
-                  <a href="https://arxiv.org/abs/2408.08704" target="_blank">📄 Paper</a>
+                  <a href="https://openreview.net/pdf?id=dbFEFHAD79" target="_blank">📄 Paper</a>
+                  <a href="https://github.com/Dongping-Chen/MLLM-Judge" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="Dongping-Chen/MLLM-Judge">⭐ --</span></a>
                 </div>
               </div>
-
-              <!-- Medical Image Retrieval -->
-              <div class="paper-card">
-                <div class="paper-badge journal">Journal</div>
-                <papertitle>Revisiting Medical Image Retrieval via Knowledge Consolidation</papertitle>
-                <div class="paper-authors">Yang Nan, <strong>Huichi Zhou</strong>, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan Gao, Alejandro F. Frangi, Guang Yang</div>
-                <div class="paper-venue">Medical Image Analysis (Impact Factor: 10.7)</div>
-                <div class="paper-links">
-                  <a href="https://arxiv.org/pdf/2503.09370" target="_blank">📄 Paper</a>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Category: Multimodal AI -->
-          <div class="category-section">
-            <div class="category-header" onclick="toggleCategory('multimodal')">
-              <span class="category-icon">🎨</span>
-              <span class="category-title">Multimodal AI & Evaluation</span>
-              <span class="category-count">2 papers</span>
-              <span class="toggle-icon rotated" id="multimodal-toggle">▼</span>
-            </div>
-            <div class="category-content collapsed" id="multimodal-content">
 
               <!-- GUI-World -->
               <div class="paper-card" data-github="Dongping-Chen/GUI-World">
@@ -265,15 +236,40 @@
                 </div>
               </div>
 
-              <!-- MLLM-as-a-Judge -->
-              <div class="paper-card" data-github="Dongping-Chen/MLLM-Judge">
-                <div class="paper-badge oral">Oral</div>
-                <papertitle>MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark</papertitle>
-                <div class="paper-authors">Dongping Chen*, Ruoxi Chen*, Shilin Zhang*, Yaochen Wang*, Yinuo Liu*, <strong>Huichi Zhou*</strong>, Qihui Zhang*, Yao Wan, Pan Zhou, Lichao Sun</div>
-                <div class="paper-venue">ICML 2024 Oral</div>
+              <!-- Memento -->
+              <div class="paper-card" data-github="Agent-on-the-Fly/Memento">
+                <div class="paper-badge preprint">Preprint</div>
+                <papertitle>Memento: Fine-tuning LLM Agents without Fine-tuning LLMs</papertitle>
+                <div class="paper-authors"><strong>Huichi Zhou</strong>, Yihang Chen, Siyuan Guo, Xue Yan, Kin Hei Lee, Zihan Wang, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang, Jun Wang</div>
+                <div class="paper-venue">arXiv 2025/8</div>
                 <div class="paper-links">
-                  <a href="https://openreview.net/pdf?id=dbFEFHAD79" target="_blank">📄 Paper</a>
-                  <a href="https://github.com/Dongping-Chen/MLLM-Judge" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="Dongping-Chen/MLLM-Judge">⭐ --</span></a>
+                  <a href="https://arxiv.org/abs/2508.16153" target="_blank">📄 Paper</a>
+                  <a href="https://github.com/Agent-on-the-Fly/Memento" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="Agent-on-the-Fly/Memento">⭐ --</span></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Category: Verifiable LLM Control -->
+          <div class="category-section">
+            <div class="category-header" onclick="toggleCategory('llm')">
+              <span class="category-icon">✅</span>
+              <span class="category-title">Verifiable LLM Control</span>
+              <span class="category-count">1 paper</span>
+              <span class="toggle-icon rotated" id="llm-toggle">▼</span>
+            </div>
+            <div class="category-content collapsed" id="llm-content">
+
+              <!-- Verifiable Format Control -->
+              <div class="paper-card" data-github="jinqij/VFF">
+                <div class="paper-badge conference">Conference</div>
+                <papertitle>Verifiable Format Control for Large Language Model Generations</papertitle>
+                <div class="paper-authors">Zhaoyang Wang*, Jinqi Jiang*, <strong>Huichi Zhou*</strong>, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Huaxiu Yao</div>
+                <div class="paper-venue">NAACL 2025 Findings</div>
+                <div class="paper-links">
+                  <a href="https://arxiv.org/pdf/2502.04498" target="_blank">📄 Paper</a>
+                  <a href="https://huggingface.co/datasets/jinqij/VFF" target="_blank">💻 Code</a>
                 </div>
               </div>
 
@@ -311,124 +307,6 @@
     window.addEventListener('load', () => {
       setTimeout(typeWriter, 500);
     });
-
-    // Research areas graph visualization
-    function createResearchGraph() {
-      const svg = document.getElementById('research-svg');
-      const container = document.getElementById('research-graph');
-      const width = container.clientWidth;
-      const height = container.clientHeight;
-
-      // Define research nodes
-      const nodes = [
-        { id: 'center', label: 'AI Research', x: width/2, y: height/2, size: 60, color: '#667eea' },
-        { id: 'llm', label: 'Large Language\nModels', x: width*0.3, y: height*0.25, size: 50, color: '#764ba2' },
-        { id: 'adversarial', label: 'Adversarial\nML', x: width*0.7, y: height*0.25, size: 50, color: '#f093fb' },
-        { id: 'trustworthy', label: 'Trustworthy\nAI', x: width*0.2, y: height*0.65, size: 45, color: '#4facfe' },
-        { id: 'gnn', label: 'Graph Neural\nNetworks', x: width*0.5, y: height*0.8, size: 45, color: '#fa709a' },
-        { id: 'medical', label: 'Medical AI', x: width*0.8, y: height*0.65, size: 45, color: '#a8edea' }
-      ];
-
-      // Define connections
-      const connections = [
-        { from: 'center', to: 'llm' },
-        { from: 'center', to: 'adversarial' },
-        { from: 'center', to: 'trustworthy' },
-        { from: 'center', to: 'gnn' },
-        { from: 'center', to: 'medical' },
-        { from: 'llm', to: 'trustworthy' },
-        { from: 'adversarial', to: 'trustworthy' },
-        { from: 'adversarial', to: 'gnn' },
-        { from: 'llm', to: 'medical' }
-      ];
-
-      // Draw connections
-      connections.forEach(conn => {
-        const fromNode = nodes.find(n => n.id === conn.from);
-        const toNode = nodes.find(n => n.id === conn.to);
-
-        const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
-        line.setAttribute('x1', fromNode.x);
-        line.setAttribute('y1', fromNode.y);
-        line.setAttribute('x2', toNode.x);
-        line.setAttribute('y2', toNode.y);
-        line.setAttribute('stroke', '#667eea');
-        line.setAttribute('stroke-width', '2');
-        line.setAttribute('opacity', '0.3');
-        line.classList.add('graph-connection');
-        svg.appendChild(line);
-      });
-
-      // Draw nodes
-      nodes.forEach(node => {
-        const group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-        group.classList.add('graph-node');
-        group.setAttribute('data-node', node.id);
-
-        const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
-        circle.setAttribute('cx', node.x);
-        circle.setAttribute('cy', node.y);
-        circle.setAttribute('r', node.size);
-        circle.setAttribute('fill', node.color);
-        circle.setAttribute('opacity', '0.8');
-        circle.style.cursor = 'pointer';
-
-        const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-        text.setAttribute('x', node.x);
-        text.setAttribute('y', node.y);
-        text.setAttribute('text-anchor', 'middle');
-        text.setAttribute('dominant-baseline', 'middle');
-        text.setAttribute('fill', 'white');
-        text.setAttribute('font-size', node.id === 'center' ? '16' : '13');
-        text.setAttribute('font-weight', 'bold');
-        text.style.pointerEvents = 'none';
-
-        // Handle multi-line text
-        const lines = node.label.split('\n');
-        if (lines.length > 1) {
-          lines.forEach((line, i) => {
-            const tspan = document.createElementNS('http://www.w3.org/2000/svg', 'tspan');
-            tspan.setAttribute('x', node.x);
-            tspan.setAttribute('y', node.y + (i - (lines.length - 1) / 2) * 15);
-            tspan.textContent = line;
-            text.appendChild(tspan);
-          });
-        } else {
-          text.textContent = node.label;
-        }
-
-        group.appendChild(circle);
-        group.appendChild(text);
-        svg.appendChild(group);
-
-        // Add hover effect
-        group.addEventListener('mouseenter', () => {
-          circle.setAttribute('r', node.size * 1.2);
-          circle.setAttribute('opacity', '1');
-        });
-
-        group.addEventListener('mouseleave', () => {
-          circle.setAttribute('r', node.size);
-          circle.setAttribute('opacity', '0.8');
-        });
-      });
-
-      // Animate nodes on load
-      setTimeout(() => {
-        const graphNodes = document.querySelectorAll('.graph-node');
-        graphNodes.forEach((node, index) => {
-          setTimeout(() => {
-            node.style.opacity = '0';
-            node.style.transform = 'scale(0)';
-            node.style.transition = 'all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)';
-            setTimeout(() => {
-              node.style.opacity = '1';
-              node.style.transform = 'scale(1)';
-            }, 50);
-          }, index * 100);
-        });
-      }, 500);
-    }
 
     // Toggle category collapse/expand
     function toggleCategory(categoryId) {
@@ -567,9 +445,6 @@
 
     // Smooth scroll reveal animations
     document.addEventListener('DOMContentLoaded', function() {
-      // Create research graph
-      createResearchGraph();
-
       // Fetch stats
       fetchAllGitHubStars();
       fetchScholarCitations();

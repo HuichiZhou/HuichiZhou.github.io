@@ -7,8 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Huichi Zhou - PhD student at UCL researching Adversarial Machine Learning and Large Language Models">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚀</text></svg>">
 </head>
 
 <body>
@@ -19,11 +22,10 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name>Huichi Zhou</name>
+                <name>Huichi Zhou (周辉池)</name>
               </p>
               <p>
-				I am a PhD student at <strong><a href="https://www.ucl.ac.uk/" target="_blank">University College London</a></strong>, advised by Professor <strong><a href="https://scholar.google.com/citations?hl=en&user=wIE1tY4AAAAJ&view_op=list_works" target="_blank">Jun Wang</a></strong>.
-				<br>Imperial master's education entry
+				I am a PhD student at <strong><a href="https://www.ucl.ac.uk/" target="_blank">University College London</a></strong>, advised by Professor <strong><a href="https://scholar.google.com/citations?hl=en&user=wIE1tY4AAAAJ&view_op=list_works" target="_blank">Jun Wang</a></strong>. Previously, I was a graduate student at <strong><a href="https://www.imperial.ac.uk/" target="_blank">Imperial College London</a></strong> advised by Professor <strong><a href="https://scholar.google.com/citations?user=ZfzEFpsAAAAJ&hl" target="_blank">Guang Yang</a></strong>.
               </p>
               <p>
                 <span id="typing-text" class="typing-effect"></span><span class="typing-cursor">|</span>
@@ -52,12 +54,8 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:40px;"><tbody><tr><td style="padding:20px;width:100%;vertical-align:middle"><heading>Education</heading></td></tr></tbody></table>
-
-
-
 <heading>Publications</heading>
-              <p style="margin-top:10px;color:#718096;font-size:14px;">* denotes equal contribution</p>
+              <p style="margin-top:10px;color:#5d4f42;font-size:14px;">* denotes equal contribution</p>
             </td>
           </tr>
         </tbody></table>
@@ -65,25 +63,61 @@
         <!-- Research Categories -->
         <div style="max-width:800px;margin:0 auto;">
 
+          <!-- Category: Learning by Stateful Reflection -->
+          <div class="category-section">
+            <div class="category-header" onclick="toggleCategory('memento')">
+              <span class="category-icon">🧠</span>
+              <span class="category-title">Learning by Stateful Reflection</span>
+              <span class="category-count">2 papers</span>
+              <span class="toggle-icon rotated" id="memento-toggle">▼</span>
+            </div>
+            <div class="category-content collapsed" id="memento-content">
+
+              <!-- Memento-Skills -->
+              <div class="paper-card" data-github="Memento-Teams/Memento-Skills" style="border-left: 3px solid #251e18;">
+                <div class="paper-badge preprint">Preprint</div>
+                <papertitle>Memento-Skills: Let Agents Design Agents</papertitle>
+                <div class="paper-authors"><strong>Huichi Zhou</strong>, Siyuan Guo, Anjie Liu, Zhongwei Yu, Ziqin Gong, Bowen Zhao, Zhixun Chen, Menglong Zhang, Yihang Chen, Jinsong Li, Runyu Yang, Qiangbin Liu, Xinlei Yu, Jianmin Zhou, Na Wang, Chunyang Sun, Jun Wang</div>
+                <div class="paper-venue">arXiv 2026/3</div>
+                <div class="paper-links">
+                  <a href="https://arxiv.org/pdf/2603.18743" target="_blank">📄 Paper</a>
+                  <a href="https://github.com/Memento-Teams/Memento-Skills" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="Memento-Teams/Memento-Skills">⭐ --</span></a>
+                </div>
+              </div>
+
+              <!-- Memento -->
+              <div class="paper-card" data-github="Agent-on-the-Fly/Memento" style="border-left: 3px solid #251e18;">
+                <div class="paper-badge preprint">Preprint</div>
+                <papertitle>Memento: Fine-tuning LLM Agents without Fine-tuning LLMs</papertitle>
+                <div class="paper-authors"><strong>Huichi Zhou</strong>, Yihang Chen, Siyuan Guo, Xue Yan, Kin Hei Lee, Zihan Wang, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang, Jun Wang</div>
+                <div class="paper-venue">arXiv 2025/8</div>
+                <div class="paper-links">
+                  <a href="https://arxiv.org/abs/2508.16153" target="_blank">📄 Paper</a>
+                  <a href="https://github.com/Agent-on-the-Fly/Memento" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="Agent-on-the-Fly/Memento">⭐ --</span></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
           <!-- Category: LLM Agents -->
           <div class="category-section">
             <div class="category-header" onclick="toggleCategory('llmagents')">
               <span class="category-icon">🤖</span>
               <span class="category-title">LLM Agents & Multimodal Understanding</span>
-              <span class="category-count">7 papers</span>
+              <span class="category-count">5 papers</span>
               <span class="toggle-icon rotated" id="llmagents-toggle">▼</span>
             </div>
             <div class="category-content collapsed" id="llmagents-content">
 
-              <!-- SemanticShield -->
+              <!-- Musical Score Understanding Benchmark -->
               <div class="paper-card">
-                <div class="paper-content">
-                  <papertitle>SemanticShield: LLM-powered audits expose shilling attacks in recommender systems</papertitle>
-                  <br>
-                  Kaihong Li, <strong>Huichi Zhou</strong>, Bin Ma, Fangjun Huang
-                  <br>
-                  <em>ICASSP</em>, 2026
-                  <br>
+                <div class="paper-badge conference">Conference</div>
+                <papertitle>Musical Score Understanding Benchmark: Evaluating Large Language Models' Comprehension of Complete Musical Scores</papertitle>
+                <div class="paper-authors">Congren Dai, Yue Yang, Krinos Li, <strong>Huichi Zhou</strong>, Shijie Liang, Zhang Bo, Enyang Liu, Ge Jin, Hongran An, Haosen Zhang, Peiyuan Jing, KinHei Lee, Zhenxuan Zhang, Xiaobing Li, Maosong Sun</div>
+                <div class="paper-venue">ACL 2026 - The 64th Annual Meeting of the Association for Computational Linguistics</div>
+                <div class="paper-links">
+                  <a href="#" target="_blank">📄 Paper</a>
                 </div>
               </div>
 
@@ -125,7 +159,7 @@
               
 
               <!-- UIS-Digger -->
-              <div class="paper-card" style="border-left: 4px solid #667eea;">
+              <div class="paper-card" style="border-left: 3px solid #251e18;">
                 <div class="paper-badge conference">Conference</div>
                 <papertitle>UIS-Digger: Towards Comprehensive Research Agent Systems for Real-world Unindexed Information Seeking</papertitle>
                 <div class="paper-authors">Chang Liu, Chuqiao Kuang, Tianyi Zhuang, Yuxin Cheng, <strong>Huichi Zhou</strong>, Xiaoguang Li, Lifeng Shang</div>
@@ -135,20 +169,6 @@
                 </div>
               </div>
 
-              <!-- Memento -->
-              <div class="paper-card" data-github="Agent-on-the-Fly/Memento" style="border-left: 4px solid #667eea;">
-                <div class="paper-badge preprint">Preprint</div>
-                <papertitle>Memento: Fine-tuning LLM Agents without Fine-tuning LLMs</papertitle>
-                <div class="paper-authors"><strong>Huichi Zhou</strong>, Yihang Chen, Siyuan Guo, Xue Yan, Kin Hei Lee, Zihan Wang, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang, Jun Wang</div>
-                <div class="paper-venue">arXiv 2025/8</div>
-                <div style="margin-top:10px;color:#4a5568;font-size:14px;line-height:1.6;">
-                  A novel approach to efficiently adapt LLM agents to new tasks by fine-tuning only the agent's memory and decision-making components while keeping the base LLM frozen. This method significantly reduces computational costs while maintaining high performance across diverse agent tasks.
-                </div>
-                <div class="paper-links">
-                  <a href="https://arxiv.org/abs/2508.16153" target="_blank">📄 Paper</a>
-                  <a href="https://github.com/Agent-on-the-Fly/Memento" target="_blank" class="github-link">💻 Code <span class="github-stars" data-repo="Agent-on-the-Fly/Memento">⭐ --</span></a>
-                </div>
-              </div>
 
             </div>
           </div>
@@ -215,10 +235,32 @@
             <div class="category-header" onclick="toggleCategory('aisafety')">
               <span class="category-icon">🛡️</span>
               <span class="category-title">AI Safety & Adversarial Robustness</span>
-              <span class="category-count">6 papers</span>
+              <span class="category-count">8 papers</span>
               <span class="toggle-icon rotated" id="aisafety-toggle">▼</span>
             </div>
             <div class="category-content collapsed" id="aisafety-content">
+
+              <!-- How Adversarial Environments Mislead Agentic AI -->
+              <div class="paper-card">
+                <div class="paper-badge conference">Conference</div>
+                <papertitle>How Adversarial Environments Mislead Agentic AI?</papertitle>
+                <div class="paper-authors">Zhonghao Zhan, <strong>Huichi Zhou</strong>, Zhenhao Li, Peiyuan Jing, Krinos Li, Hamed Haddadi</div>
+                <div class="paper-venue">ACL 2026 Findings - The 64th Annual Meeting of the Association for Computational Linguistics</div>
+                <div class="paper-links">
+                  <a href="#" target="_blank">📄 Paper</a>
+                </div>
+              </div>
+
+              <!-- SemanticShield -->
+              <div class="paper-card">
+                <div class="paper-badge conference">Conference</div>
+                <papertitle>SemanticShield: LLM-powered audits expose shilling attacks in recommender systems</papertitle>
+                <div class="paper-authors">Kaihong Li, <strong>Huichi Zhou</strong>, Bin Ma, Fangjun Huang</div>
+                <div class="paper-venue">ICASSP 2026</div>
+                <div class="paper-links">
+                  <a href="#" target="_blank">📄 Paper</a>
+                </div>
+              </div>
 
               <!-- TrustRAG AAAI Workshop -->
               <div class="paper-card" data-github="HuichiZhou/TrustRAG">
@@ -295,6 +337,26 @@
 
         </div>
 
+        <!-- Talks Section -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:40px;"><tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Talks</heading>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <div style="max-width:800px;margin:0 auto;">
+          <div class="paper-card" style="border-left: 3px solid #251e18;">
+            <papertitle style="font-size:18px;">Shanghai Innovation Institute</papertitle>
+            <div class="paper-venue">April 2026 • Hosted by Professor <a href="https://scholar.google.com/citations?user=RN1QMPgAAAAJ&hl=en" target="_blank">Yuan Xie</a></div>
+          </div>
+          <div class="paper-card" style="border-left: 3px solid #251e18;">
+            <papertitle style="font-size:18px;">East China Normal University</papertitle>
+            <div class="paper-venue">April 2026 • Hosted by Professor <a href="https://scholar.google.com/citations?user=CXZciFAAAAAJ&hl=en" target="_blank">Zhizhong Zhang</a></div>
+          </div>
+        </div>
+
         <!-- Teaching Section -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;margin-top:40px;"><tbody>
           <tr>
@@ -305,13 +367,13 @@
         </tbody></table>
 
         <div style="max-width:800px;margin:0 auto;">
-          <div class="paper-card" style="border-left: 4px solid #667eea;">
+          <div class="paper-card" style="border-left: 3px solid #251e18;">
             <papertitle style="font-size:18px;">Teaching Assistant</papertitle>
             <div class="paper-authors" style="margin-top:8px;">
               <strong>COMP0124</strong> - Multi-agent Artificial Intelligence
             </div>
             <div class="paper-venue">Spring Term 2026 • Supervised by <a href="https://scholar.google.com/citations?hl=en&user=wIE1tY4AAAAJ&view_op=list_works" target="_blank">Professor Jun Wang</a></div>
-            <div style="margin-top:10px;color:#4a5568;font-size:14px;line-height:1.6;">
+            <div style="margin-top:10px;color:#5d4f42;font-size:14px;line-height:1.6;">
               Supporting the teaching of advanced topics in multi-agent systems and artificial intelligence, including:
               <ul style="margin-top:6px;margin-bottom:0;">
                 <li>Assisting students with coursework and project development</li>
@@ -332,10 +394,10 @@
         </tbody></table>
 
         <div style="max-width:800px;margin:0 auto;">
-          <div class="paper-card" style="border-left: 4px solid #f093fb;">
+          <div class="paper-card" style="border-left: 3px solid #251e18;">
             <papertitle style="font-size:18px;">🏆 Chinese National Scholarship</papertitle>
             <div class="paper-venue">2021-2022</div>
-            <div style="margin-top:10px;color:#4a5568;font-size:14px;line-height:1.6;">
+            <div style="margin-top:10px;color:#5d4f42;font-size:14px;line-height:1.6;">
               <ul style="margin:6px 0;">
                 <li>China's most prestigious scholarship for undergraduate students, awarded by the Ministry of Education</li>
                 <li><strong>Only one recipient</strong> selected from the entire department</li>
@@ -510,140 +572,11 @@
       }, 16);
     }
 
-    // Smooth scroll reveal animations
+    // Initialize on DOM ready
     document.addEventListener('DOMContentLoaded', function() {
-      // Fetch stats
       fetchAllGitHubStars();
       fetchScholarCitations();
-
-      // Add animation to category sections
-      const categories = document.querySelectorAll('.category-section');
-      categories.forEach((section, index) => {
-        section.style.opacity = '0';
-        section.style.transform = 'translateY(20px)';
-        setTimeout(() => {
-          section.style.transition = 'all 0.6s ease-out';
-          section.style.opacity = '1';
-          section.style.transform = 'translateY(0)';
-        }, 150 * index);
-      });
-
-      // Add animation classes to publication items
-      const publicationRows = document.querySelectorAll('.paper-card');
-      publicationRows.forEach((row, index) => {
-        row.style.opacity = '0';
-        row.style.transform = 'translateY(20px)';
-        row.style.transition = 'all 0.6s ease-out';
-
-        setTimeout(() => {
-          row.style.opacity = '1';
-          row.style.transform = 'translateY(0)';
-        }, 50 * index);
-      });
-
-      // Add parallax effect to background
-      document.addEventListener('mousemove', (e) => {
-        const x = (e.clientX / window.innerWidth) - 0.5;
-        const y = (e.clientY / window.innerHeight) - 0.5;
-
-        document.body.style.backgroundPosition = `${50 + x * 10}% ${50 + y * 10}%`;
-      });
-
-      // Intersection Observer for scroll animations
-      const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -100px 0px'
-      };
-
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('active');
-          }
-        });
-      }, observerOptions);
-
-      // Add hover effect to profile image
-      const profileImg = document.querySelector('img[alt="profile photo"]');
-      if (profileImg) {
-        profileImg.style.cursor = 'pointer';
-      }
-
-      // Add number counter animation for headings
-      const headings = document.querySelectorAll('heading');
-      headings.forEach(heading => {
-        heading.style.opacity = '0';
-        heading.style.transform = 'translateX(-20px)';
-        heading.style.transition = 'all 0.5s ease-out';
-
-        setTimeout(() => {
-          heading.style.opacity = '1';
-          heading.style.transform = 'translateX(0)';
-        }, 200);
-      });
-
-      // Create floating particles effect
-      createFloatingParticles();
     });
-
-    // Create subtle floating particles
-    function createFloatingParticles() {
-      const particleCount = 20;
-      const body = document.body;
-
-      const colors = [
-        'rgba(102, 126, 234, 0.15)',
-        'rgba(118, 75, 162, 0.15)',
-        'rgba(240, 147, 251, 0.12)',
-        'rgba(102, 126, 234, 0.1)',
-        'rgba(118, 75, 162, 0.12)'
-      ];
-
-      for (let i = 0; i < particleCount; i++) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.cssText = `
-          position: fixed;
-          width: ${Math.random() * 6 + 3}px;
-          height: ${Math.random() * 6 + 3}px;
-          background: ${colors[Math.floor(Math.random() * colors.length)]};
-          border-radius: 50%;
-          pointer-events: none;
-          z-index: 0;
-          left: ${Math.random() * 100}%;
-          top: ${Math.random() * 100}%;
-          animation: float-particle ${Math.random() * 15 + 15}s infinite ease-in-out;
-          animation-delay: ${Math.random() * 5}s;
-          box-shadow: 0 0 10px ${colors[Math.floor(Math.random() * colors.length)]};
-        `;
-        body.appendChild(particle);
-      }
-
-      // Add keyframes for particle animation
-      if (!document.getElementById('particle-animation')) {
-        const style = document.createElement('style');
-        style.id = 'particle-animation';
-        style.textContent = `
-          @keyframes float-particle {
-            0%, 100% {
-              transform: translate(0, 0) scale(1);
-              opacity: 0.3;
-            }
-            25% {
-              opacity: 0.6;
-            }
-            50% {
-              transform: translate(${Math.random() * 150 - 75}px, ${Math.random() * 150 - 75}px) scale(1.3);
-              opacity: 0.8;
-            }
-            75% {
-              opacity: 0.6;
-            }
-          }
-        `;
-        document.head.appendChild(style);
-      }
-    }
 
     // Add smooth scroll for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -659,13 +592,9 @@
       });
     });
 
-    // Add loading animation
+    // Gentle fade-in on load
     window.addEventListener('load', () => {
-      document.body.style.opacity = '0';
-      setTimeout(() => {
-        document.body.style.transition = 'opacity 0.5s ease-in';
-        document.body.style.opacity = '1';
-      }, 100);
+      document.body.style.opacity = '1';
     });
   </script>
 </body>

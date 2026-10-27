@@ -1,0 +1,563 @@
+[
+  {
+    "id": "memento",
+    "title": "Learning by Stateful Reflection",
+    "papers": [
+      {
+        "scholar_id": "HE397vMXCloC",
+        "title": "Memento-Skills: Let Agents Design Agents",
+        "authors": "Huichi Zhou, Siyuan Guo, Anjie Liu, Zhongwei Yu, Ziqin Gong, Bowen Zhao, Zhixun Chen, Menglong Zhang, Yihang Chen, Jinsong Li, Runyu Yang, Qiangbin Liu, Xinlei Yu, Jianmin Zhou, Na Wang, Chunyang Sun, Jun Wang",
+        "venue": "arXiv 2026/3",
+        "type": "Preprint",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/pdf/2603.18743"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/Memento-Teams/Memento-Skills"
+          }
+        ],
+        "github_repo": "Memento-Teams/Memento-Skills"
+      },
+      {
+        "scholar_id": "SdhP9T11ey4C",
+        "title": "Tame: A trustworthy test-time evolution of agent memory with systematic benchmarking",
+        "authors": "Yu Cheng, Yongkang Hu, Jiuan Zhou, Yushuo Zhang, Yihang Chen, Huichi Zhou, Mingang Chen, Zhizhong Zhang, Kun Shao, Yuan Xie, Zhaoxia Yin",
+        "venue": "EMNLP",
+        "type": "Conference",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2602.03224"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "uLbwQdceFCQC",
+        "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+        "authors": "Jundong Xu, Qingchuan Li, Jiaying Wu, Yihuai Lan, Shuyue Stella Li, Huichi Zhou, Bowen Jiang, Lei Wang, Jun Wang, Anh Tuan Luu, Caiming Xiong, Hae Won Park, Bryan Hooi, Zhiyuan Hu",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2606.13681"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "4fKUyHm3Qg0C",
+        "title": "Memento: Fine-tuning LLM Agents without Fine-tuning LLMs",
+        "authors": "Huichi Zhou, Yihang Chen, Siyuan Guo, Xue Yan, Kin Hei Lee, Zihan Wang, Ka Yiu Lee, Guchun Zhang, Kun Shao, Linyi Yang, Jun Wang",
+        "venue": "arXiv 2025/8",
+        "type": "Preprint",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2508.16153"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/Agent-on-the-Fly/Memento"
+          }
+        ],
+        "github_repo": "Agent-on-the-Fly/Memento"
+      }
+    ]
+  },
+  {
+    "id": "llmagents",
+    "title": "LLM Agents & Multimodal Understanding",
+    "papers": [
+      {
+        "scholar_id": "WA5NYHcadZ8C",
+        "title": "Musical Score Understanding Benchmark: Evaluating Large Language Models' Comprehension of Complete Musical Scores",
+        "authors": "Congren Dai, Yue Yang, Krinos Li, Huichi Zhou, Shijie Liang, Zhang Bo, Enyang Liu, Ge Jin, Hongran An, Haosen Zhang, Peiyuan Jing, KinHei Lee, Zhenxuan Zhang, Xiaobing Li, Maosong Sun",
+        "venue": "ACL 2026 - The 64th Annual Meeting of the Association for Computational Linguistics",
+        "type": "Conference",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2026.acl-long.493/"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "kRWSkSYxWN8C",
+        "title": "Training LLMs with LogicReward for Faithful and Rigorous Reasoning",
+        "authors": "Jundong Xu, Hao Fei, Huichi Zhou, Xin Quan, Qijun Huang, Shengqiong Wu, William Yang Wang, Mong-Li Lee, Wynne Hsu",
+        "venue": "ICLR 2026",
+        "type": "Conference",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://proceedings.iclr.cc/paper_files/paper/2026/hash/47e288629a6996a17ce50b90a056a0e1-Abstract-Conference.html"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "BrmTIyaxlBUC",
+        "title": "UIS-Digger: Towards Comprehensive Research Agent Systems for Real-world Unindexed Information Seeking",
+        "authors": "Chang Liu, Chuqiao Kuang, Tianyi Zhuang, Yuxin Cheng, Huichi Zhou, Xiaoguang Li, Lifeng Shang",
+        "venue": "ICLR 2026",
+        "type": "Conference",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2603.08117"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "ye4kPcJQO24C",
+        "title": "ProMMSearchAgent: A Generalizable Multimodal Search Agent Trained with Process-Oriented Rewards",
+        "authors": "Wentao Yan, Shengqin Wang, Huichi Zhou, Yihang Chen, Kun Shao, Yuan Xie, Zhizhong Zhang",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2604.20486"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "tzM49s52ZIMC",
+        "title": "HarnessPAI: An evolving harness for physical AI",
+        "authors": "Xin Wang, Wenhao Wu, Menghao Zhang, Zhi Wang, Kun Shao, Jian Luan, Yang Li, Qing Li, Shangding Gu, Huichi Zhou, Shuqing Shi, Fei Ni, Shuo Lu, Weicheng Meng, Kang Li, Jin Wu, Kang Zhao, Shangmin Guo, Gen Li, Yongqiang Tang, Zhizhong Zhang, Yuan Xie, Heng Qu",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2609.29166"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "9vf0nzSNQJEC",
+        "title": "Infoseeker: A scalable hierarchical parallel agent framework for web information seeking",
+        "authors": "Ka Yiu Lee, Yuxuan Huang, Zhiyuan He, Huichi Zhou, Weilin Luo, Kun Shao, Meng Fang, Jun Wang",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2604.02971"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "JoZmwDi-zQgC",
+        "title": "DR-MMSearchAgent: Deepening Reasoning in Multimodal Search Agents",
+        "authors": "Shengqin Wang, Wentao Yan, Huichi Zhou, Yihang Chen, Kun Shao, Zhizhong Zhang, Yuan Xie",
+        "venue": "ICML",
+        "type": "Conference",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2604.19264"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "eq2jaN3J8jMC",
+        "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction",
+        "authors": "Yuxuan Huang, Yihang Chen, Zhiyuan He, Yuxiang Chen, Ka Yiu Lee, Huichi Zhou, Weilin Luo, Meng Fang, Jun Wang",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2604.27221"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "3s1wT3WcHBgC",
+        "title": "GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding",
+        "authors": "Dongping Chen, Yue Huang, Siyuan Wu, Jingyu Tang, Huichi Zhou, Qihui Zhang, Zhigang He, Yilin Bai, Chujie Gao, Liuyi Chen, Yiqiang Li, Chenlong Wang, Yue Yu, Tianshuo Zhou, Zhen Li, Yi Gui, Yao Wan, Pan Zhou, Jianfeng Gao, Lichao Sun",
+        "venue": "ICLR 2025",
+        "type": "Conference",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://openreview.net/forum?id=QarKTT5brZ"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/Dongping-Chen/GUI-World"
+          }
+        ],
+        "github_repo": "Dongping-Chen/GUI-World"
+      },
+      {
+        "scholar_id": "1yQoGdGgb4wC",
+        "title": "Deep research agents: A systematic examination and roadmap",
+        "authors": "Yuxuan Huang, Yihang Chen, Haozheng Zhang, Kang Li, Huichi Zhou, Meng Fang, Linyi Yang, Xiaoguang Li, Lifeng Shang, Songcen Xu, Jianye Hao, Kun Shao, Jun Wang",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2506.18096"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "WqliGbK-hY8C",
+        "title": "Univa: Universal video agent towards open-source next-generation video generalist",
+        "authors": "Zhengyang Liang, Daoan Zhang, Huichi Zhou, Rui Huang, Bobo Li, Yuechen Zhang, Shengqiong Wu, Xiaohan Wang, Jiebo Luo, Lizi Liao, Hao Fei",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2511.08521"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "WbkHhVStYXYC",
+        "title": "Verigui: Verifiable long-chain gui dataset",
+        "authors": "Shunyu Liu, Minghao Liu, Huichi Zhou, Zhenyu Cui, Yang Zhou, Yuhao Zhou, Wendong Fan, Ge Zhang, Jiajun Shi, Weihao Xuan, Jiaxing Huang, Shuang Luo, Fang Wu, Heli Qi, Qingcheng Zeng, Ziqi Ren, Jialiang Gao, Jindi Lv, Junjie Wang, Aosong Feng, Heng Zhou, Wangchunshu Zhou, Zhenfei Yin, Wenlong Zhang, Guohao Li, Wenhao Yu, Irene Li, Lei Ma, Lei Bai, Qunshu Lin, Mingli Song, Dacheng Tao",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://ui.adsabs.harvard.edu/abs/2025arXiv250804026L/abstract"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "1qzjygNMrQYC",
+        "title": "EfficientLLM: Efficiency in Large Language Models",
+        "authors": "Zhengqing Yuan, Weixiang Sun, Yixin Liu, Huichi Zhou, Rong Zhou, Yiyang Li, Zheyuan Zhang, Wei Song, Yue Huang, Haolong Jia, Keerthiram Murugesan, Yu Wang, Lifang He, Jianfeng Gao, Lichao Sun, Yanfang Ye",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2505.13840"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "NaGl4SEjCO4C",
+        "title": "MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark",
+        "authors": "Dongping Chen*, Ruoxi Chen*, Shilin Zhang*, Yaochen Wang*, Yinuo Liu*, Huichi Zhou*, Qihui Zhang*, Yao Wan, Pan Zhou, Lichao Sun",
+        "venue": "ICML 2024 Oral",
+        "type": "Oral",
+        "year": 2024,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://openreview.net/pdf?id=dbFEFHAD79"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/Dongping-Chen/MLLM-Judge"
+          }
+        ],
+        "github_repo": "Dongping-Chen/MLLM-Judge"
+      }
+    ]
+  },
+  {
+    "id": "medical",
+    "title": "Medical & Scientific AI",
+    "papers": [
+      {
+        "scholar_id": "LjlpjdlvIbIC",
+        "title": "Unleashing Video Language Models for Fine-grained HRCT Report Generation",
+        "authors": "Yingying Fang*, Huichi Zhou*, KinHei Lee*, Yijia Wang, Zhenxuan Zhang, Jiahao Huang, Guang Yang",
+        "venue": "MICCAI",
+        "type": "Conference",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-032-38062-3_60"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "2KloaMYe4IUC",
+        "title": "A self-learning scientific agent for X-ray diffraction",
+        "authors": "Bin Cao, Huichi Zhou, Runyu Yang, Jingsong Li, Shuchen Sun, Yan Song, Hanyu Gao, Zhongwei Yu, Tong-Yi Zhang, Jun Wang",
+        "venue": "arXiv",
+        "type": "Preprint",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2610.07862"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "zA6iFVUQeVQC",
+        "title": "Revisiting Medical Image Retrieval via Knowledge Consolidation",
+        "authors": "Yang Nan, Huichi Zhou, Xiaodan Xing, Giorgos Papanastasiou, Lei Zhu, Zhifan Gao, Alejandro F. Frangi, Guang Yang",
+        "venue": "Medical Image Analysis (Impact Factor: 10.7)",
+        "type": "Journal",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/pdf/2503.09370"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "XiSMed-E-HIC",
+        "title": "GEMA-Score: Granular Explainable Multi-Agent Score for Radiology Report Evaluation",
+        "authors": "Zhenxuan Zhang, Kinhei Lee, Weihang Deng, Huichi Zhou, Zihao Jin, Jiahao Huang, Zhifan Gao, Dominic C Marshall, Yingying Fang, Guang Yang",
+        "venue": "AAAI 2026 - The Fortieth AAAI Conference on Artificial Intelligence",
+        "type": "Conference",
+        "year": 2025,
+        "links": [],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "dshw04ExmUIC",
+        "title": "Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation",
+        "authors": "Peiyuan Jing, Kinhei Lee, Zhenxuan Zhang, Huichi Zhou, Zhengqing Yuan, Zhifan Gao, Lei Zhu, Giorgos Papanastasiou, Yingying Fang, Guang Yang",
+        "venue": "Medical Image Analysis (Impact Factor: 10.7)",
+        "type": "Journal",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1361841525004566"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "k_IJM867U9cC",
+        "title": "Beyond the Hype: A Dispassionate Look at Vision-Language Models in Medical Scenario",
+        "authors": "Yang Nan*, Huichi Zhou*, Xiaodan Xing, Guang Yang",
+        "venue": "IEEE TNNLS (Impact Factor: 10.2)",
+        "type": "Journal",
+        "year": 2024,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2408.08704"
+          }
+        ],
+        "github_repo": null
+      }
+    ]
+  },
+  {
+    "id": "aisafety",
+    "title": "AI Safety & Adversarial Robustness",
+    "papers": [
+      {
+        "scholar_id": "Mojj43d5GZwC",
+        "title": "How Adversarial Environments Mislead Agentic AI?",
+        "authors": "Zhonghao Zhan, Huichi Zhou, Zhenhao Li, Peiyuan Jing, Krinos Li, Hamed Haddadi",
+        "venue": "ACL 2026 Findings - The 64th Annual Meeting of the Association for Computational Linguistics",
+        "type": "Conference",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2026.findings-acl.499/"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "D_sINldO8mEC",
+        "title": "SemanticShield: LLM-powered audits expose shilling attacks in recommender systems",
+        "authors": "Kaihong Li, Huichi Zhou, Bin Ma, Fangjun Huang",
+        "venue": "ICASSP 2026",
+        "type": "Conference",
+        "year": 2026,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://ieeexplore.ieee.org/abstract/document/11463212/"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "RGFaLdJalmkC",
+        "title": "TrustRAG: Enhancing Robustness and Trustworthiness in RAG",
+        "authors": "Huichi Zhou*, Kin-Hei Lee*, Zhonghao Zhan*, Yue Chen, Zhenhao Li, Zhaoyang Wang, Hamed Haddadi, Emine Yilmaz",
+        "venue": "AAAI 2026 Workshop on Trust and Control in Agentic AI (TrustAgent)",
+        "type": "Workshop",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Project",
+            "url": "https://trust-rag.github.io/"
+          },
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/pdf/2501.00879"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/HuichiZhou/TrustRAG"
+          }
+        ],
+        "github_repo": "HuichiZhou/TrustRAG"
+      },
+      {
+        "scholar_id": "sSrBHYA8nusC",
+        "title": "Reliable and Responsible Foundation Models",
+        "authors": "Xinyu Yang, Junlin Han, Rishi Bommasani, Jinqi Luo, Wenjie Qu, Wangchunshu Zhou, Adel Bibi, Xiyao Wang, Jaehong Yoon, Elias Stengel-Eskin, Shengbang Tong, Lingfeng Shen, Rafael Rafailov, Runjia Li, Zhaoyang Wang, Yiyang Zhou, Chenhang Cui, Yu Wang, Wenhao Zheng, Huichi Zhou, Jindong Gu, Zhaorun Chen, Peng Xia, Tony Lee, Thomas P Zollo, Vikash Sehwag, Jixuan Leng, Jiuhai Chen, Yuxin Wen, Huan Zhang, Zhun Deng, Linjun Zhang, Pavel Izmailov, Pang Wei Koh, Yulia Tsvetkov, Andrew Gordon Wilson, Jiaheng Zhang, James Zou, Cihang Xie, Hao Wang, Philip Torr, Julian McAuley, David Alvarez-Melis, Florian Tramèr, Kaidi Xu, Suman Jana, Chris Callison-Burch, Rene Vidal, Filippos Kokkinos, Mohit Bansal, Beidi Chen, Huaxiu Yao",
+        "venue": "TMLR 2025 - Transactions on Machine Learning Research",
+        "type": "Journal",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://openreview.net/forum?id=nLJZh4M6S5"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "fPk4N6BV_jEC",
+        "title": "DiffuseDef: Improve Robustness to Adversarial Attacks via Iterative Denoising",
+        "authors": "Zhenhao Li, Huichi Zhou, Marek Rei, Lucia Specia",
+        "venue": "ACL 2025",
+        "type": "Conference",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2407.00248"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "UxriW0iASnsC",
+        "title": "Enhancing GNN Robustness for Network Intrusion Detection via Agent-based Analysis",
+        "authors": "Zhonghao Zhan, Huichi Zhou, Hamed Haddadi",
+        "venue": "EuroS&P 2025 Poster",
+        "type": "Poster",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2506.20806"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "V3AGJWp-ZtQC",
+        "title": "Can Large Language Models Improve the Adversarial Robustness of Graph Neural Networks?",
+        "authors": "Zhongjian Zhang*, Xiao Wang*, Huichi Zhou, Mengmei Zhang, Cheng Yang, Chuan Shi",
+        "venue": "KDD 2025 Research Track",
+        "type": "Conference",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/pdf/2408.08685"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/zhongjian-zhang/LLM4RGNN"
+          }
+        ],
+        "github_repo": "zhongjian-zhang/LLM4RGNN"
+      },
+      {
+        "scholar_id": "35N4QoGY0k4C",
+        "title": "Verifiable Format Control for Large Language Model Generations",
+        "authors": "Zhaoyang Wang*, Jinqi Jiang*, Huichi Zhou*, Wenhao Zheng, Xuchao Zhang, Chetan Bansal, Huaxiu Yao",
+        "venue": "NAACL",
+        "type": "Conference",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2025.findings-naacl.194/"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "pyW8ca7W8N0C",
+        "title": "Evaluate-and-Purify: Fortifying Code Language Models Against Adversarial Attacks Using LLM-as-a-Judge",
+        "authors": "Wenhan Mu, Ling Xu, Shuren Pei, Le Mi, Huichi Zhou",
+        "venue": "ICIC Oral",
+        "type": "Conference",
+        "year": 2025,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://link.springer.com/chapter/10.1007/978-981-96-9994-0_31"
+          }
+        ],
+        "github_repo": null
+      },
+      {
+        "scholar_id": "isC4tDSrTZIC",
+        "title": "Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models",
+        "authors": "Huichi Zhou*, Zhaoyang Wang*, Hongtao Wang, Dongping Chen, Wenhan Mu, Fangyuan Zhang",
+        "venue": "ACL 2024 Findings",
+        "type": "Conference",
+        "year": 2024,
+        "links": [
+          {
+            "label": "Paper",
+            "url": "https://aclanthology.org/2024.findings-acl.292"
+          },
+          {
+            "label": "Code",
+            "url": "https://github.com/HuichiZhou/AVLLM"
+          }
+        ],
+        "github_repo": "HuichiZhou/AVLLM"
+      }
+    ]
+  }
+]

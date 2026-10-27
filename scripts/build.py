@@ -42,10 +42,11 @@ def render(groups, scholar):
             cited_url = citation.get('cited_by_url') or citation['scholar_url']
             noun = 'citation' if count == 1 else 'citations'
             label = f'{count:,} {noun}'
+            citation_link = f'<a class="citation-link" href="{escape(cited_url)}" target="_blank" rel="noopener noreferrer" aria-label="{escape(label + " on Google Scholar for " + paper["title"])}">Cited by <strong>{count:,}</strong> <span aria-hidden="true">↗</span></a>'
             search = ' '.join(str(paper[k]) for k in ('title','authors','venue','year'))
             cards.append(f'''<article class="paper" id="paper-{sid}" data-search="{escape(search)}">
-              <div class="paper-meta"><span class="paper-type">{escape(paper['type'])}</span><span>{paper['year']}</span><a class="citation-link" href="{escape(cited_url)}" target="_blank" rel="noopener noreferrer" aria-label="{escape(label + ' on Google Scholar for ' + paper['title'])}">{label} <span aria-hidden="true">↗</span></a></div>
-              <h3>{escape(paper['title'])}</h3>{authors_html}<p class="paper-venue">{escape(paper['venue'])}</p><div class="paper-links">{''.join(links)}</div>
+              <div class="paper-meta"><span class="paper-type">{escape(paper['type'])}</span><span>{paper['year']}</span></div>
+              <h3>{escape(paper['title'])}</h3>{authors_html}<p class="paper-venue">{escape(paper['venue'])}</p><div class="paper-links">{citation_link}{''.join(links)}</div>
             </article>''')
         sections.append(f'''<details class="publication-group" data-topic="{escape(group['id'])}" open><summary><span class="group-number">{number:02}</span><h3>{escape(group['title'])}</h3><span class="group-count">{len(cards)} papers</span><span class="disclosure" aria-hidden="true">−</span></summary><div class="group-papers">{''.join(cards)}</div></details>''')
     updated = datetime.fromisoformat(scholar['updated_at'].replace('Z','+00:00'))

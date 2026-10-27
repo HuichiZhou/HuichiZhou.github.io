@@ -1,0 +1,92 @@
+name: Website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: main
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Refresh Google Scholar snapshot
+        id: scholar
+        continue-on-error: true
+        run: python scripts/update_scholar.py
+      - name: Report unavailable refresh
+        if: steps.scholar.outcome == 'failure'
+        run: |
+          echo '::warning::Google Scholar was unavailable. The last verified citation counts and their original update date are retained.'
+          echo 'Google Scholar refresh was unavailable; the website keeps its last verified snapshot.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Validate and render
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/build.py
+      - name: Commit refreshed data
+        run: |
+          git add data/scholar.json index.html
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update Google Scholar citation snapshot'
+          git push origin HEAD:main
+
+  build:
+    needs: refresh
+    if: always() && (needs.refresh.result == 'success' || needs.refresh.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ needs.refresh.result == 'success' && 'main' || github.sha }}
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Validate and build static website
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/build.py
+          node --check assets/site.js
+          mkdir -p _site/images
+          cp index.html stylesheet.css _site/
+          cp -R assets data _site/
+          cp images/zhc.jpg _site/images/
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@v5.0.0
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    if: always() && needs.build.result == 'success' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5.0.1

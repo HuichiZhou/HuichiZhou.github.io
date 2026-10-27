@@ -1,0 +1,285 @@
+{
+  "profile_id": "1IJyxpUAAAAJ",
+  "profile_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en",
+  "source": "Google Scholar",
+  "updated_at": "2026-10-27T13:13:29.801912+00:00",
+  "metrics": {
+    "citations": 1642,
+    "h_index": 15,
+    "i10_index": 20
+  },
+  "publications": {
+    "NaGl4SEjCO4C": {
+      "citations": 560,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6962079740663458368,10073915427809388856",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:NaGl4SEjCO4C",
+      "title": "Mllm-as-a-judge: Assessing multimodal llm-as-a-judge with vision-language benchmark",
+      "venue": "ICML Oral",
+      "year": "2024"
+    },
+    "1yQoGdGgb4wC": {
+      "citations": 210,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10068350687306504898,1910570505246897843,11927026910806902749,11045380747902882218,6440665853798840426",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:1yQoGdGgb4wC",
+      "title": "Deep research agents: A systematic examination and roadmap",
+      "venue": "arXiv",
+      "year": "2025"
+    },
+    "4fKUyHm3Qg0C": {
+      "citations": 193,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4261672672817894904,7610362148927802502,2103429459148106559,16675377219751685925,3069094403974701058",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:4fKUyHm3Qg0C",
+      "title": "Memento: Fine-tuning llm agents without fine-tuning llms",
+      "venue": "arXiv",
+      "year": "2025"
+    },
+    "RGFaLdJalmkC": {
+      "citations": 120,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3742911689668882541,14457285365734802457,5162493270128262455",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:RGFaLdJalmkC",
+      "title": "TrustRAG: Enhancing Robustness and Trustworthiness in RAG",
+      "venue": "AAAI Workshop Oral",
+      "year": "2025"
+    },
+    "3s1wT3WcHBgC": {
+      "citations": 115,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15703243324512103640,17325237154026099753,2737788061712238283,9953427551268136075,17214249415432904538,6604608959724846020",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:3s1wT3WcHBgC",
+      "title": "GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding",
+      "venue": "ICLR",
+      "year": "2025"
+    },
+    "HE397vMXCloC": {
+      "citations": 80,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16214227508067714820,10822336597868365225,15145044323109063110",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:HE397vMXCloC",
+      "title": "Memento-Skills: Let Agents Design Agents",
+      "venue": "arXiv",
+      "year": "2026"
+    },
+    "V3AGJWp-ZtQC": {
+      "citations": 66,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17189213885082756472,17574028753502788984",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:V3AGJWp-ZtQC",
+      "title": "Can large language models improve the adversarial robustness of graph neural networks?",
+      "venue": "KDD",
+      "year": "2025"
+    },
+    "dshw04ExmUIC": {
+      "citations": 30,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6082849708893554575,10838324445156537697",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:dshw04ExmUIC",
+      "title": "Reason Like a Radiologist: Chain-of-Thought and Reinforcement Learning for Verifiable Report Generation",
+      "venue": "Medical Image Analysis",
+      "year": "2025"
+    },
+    "35N4QoGY0k4C": {
+      "citations": 24,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3499968636370328121",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:35N4QoGY0k4C",
+      "title": "Verifiable Format Control for Large Language Model Generations",
+      "venue": "NAACL",
+      "year": "2025"
+    },
+    "k_IJM867U9cC": {
+      "citations": 22,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15819825182934195402",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:k_IJM867U9cC",
+      "title": "Beyond the Hype: A dispassionate look at vision-language models in medical scenario",
+      "venue": "IEEE Transactions on Neural Networks and Learning Systems",
+      "year": "2024"
+    },
+    "WqliGbK-hY8C": {
+      "citations": 21,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11052160175559165553,15694254313582230187,10718522188636735456",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:WqliGbK-hY8C",
+      "title": "Univa: Universal video agent towards open-source next-generation video generalist",
+      "venue": "arXiv",
+      "year": "2025"
+    },
+    "XiSMed-E-HIC": {
+      "citations": 21,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10157399738895260128,1440990236181677400",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:XiSMed-E-HIC",
+      "title": "GEMA-Score: Granular Explainable Multi-Agent Score for Radiology Report Evaluation",
+      "venue": "AAAI",
+      "year": "2025"
+    },
+    "WbkHhVStYXYC": {
+      "citations": 16,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16012453814857116134,1317334662232891403,6711589050994050729",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:WbkHhVStYXYC",
+      "title": "Verigui: Verifiable long-chain gui dataset",
+      "venue": "arXiv",
+      "year": "2025"
+    },
+    "1qzjygNMrQYC": {
+      "citations": 16,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3136431651036967530,5665990425383840202",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:1qzjygNMrQYC",
+      "title": "EfficientLLM: Efficiency in Large Language Models",
+      "venue": "arXiv",
+      "year": "2025"
+    },
+    "isC4tDSrTZIC": {
+      "citations": 16,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=2752342265116777622",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:isC4tDSrTZIC",
+      "title": "Evaluating the Validity of Word-level Adversarial Attacks with Large Language Models",
+      "venue": "ACL Findings",
+      "year": "2024"
+    },
+    "SdhP9T11ey4C": {
+      "citations": 15,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=5578944032027121837",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:SdhP9T11ey4C",
+      "title": "Tame: A trustworthy test-time evolution of agent memory with systematic benchmarking",
+      "venue": "EMNLP",
+      "year": "2026"
+    },
+    "kRWSkSYxWN8C": {
+      "citations": 15,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=170103058869708215,4263943377391807415",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:kRWSkSYxWN8C",
+      "title": "LogicReward: Incentivizing LLM Reasoning via Step-Wise Logical Supervision",
+      "venue": "ICLR",
+      "year": "2026"
+    },
+    "sSrBHYA8nusC": {
+      "citations": 14,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=7815360407052441390,10650521817796671607",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:sSrBHYA8nusC",
+      "title": "Reliable and Responsible Foundation Models",
+      "venue": "TMLR",
+      "year": "2025"
+    },
+    "zA6iFVUQeVQC": {
+      "citations": 11,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10469316953640472810",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:zA6iFVUQeVQC",
+      "title": "Revisiting Medical Image Retrieval via Knowledge Consolidation",
+      "venue": "Medical Image Analysis",
+      "year": "2025"
+    },
+    "uLbwQdceFCQC": {
+      "citations": 10,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11197911020118727259,15172888270712133120",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:uLbwQdceFCQC",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "venue": "arXiv",
+      "year": "2026"
+    },
+    "fPk4N6BV_jEC": {
+      "citations": 9,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17697967615947889442,7835525719488006578",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:fPk4N6BV_jEC",
+      "title": "DiffuseDef: Improved Robustness to Adversarial Attacks",
+      "venue": "ACL",
+      "year": "2025"
+    },
+    "Mojj43d5GZwC": {
+      "citations": 8,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16690597207285959947",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:Mojj43d5GZwC",
+      "title": "How Adversarial Environments Mislead Agentic AI?",
+      "venue": "ACL Findings",
+      "year": "2026"
+    },
+    "UxriW0iASnsC": {
+      "citations": 8,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17761155838147610970,1167752877936760484",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:UxriW0iASnsC",
+      "title": "Poster: Enhancing GNN Robustness for Network Intrusion Detection via Agent-based Analysis",
+      "venue": "EuroS&P Poster",
+      "year": "2025"
+    },
+    "ye4kPcJQO24C": {
+      "citations": 7,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17547278153966761166",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:ye4kPcJQO24C",
+      "title": "ProMMSearchAgent: A Generalizable Multimodal Search Agent Trained with Process-Oriented Rewards",
+      "venue": "arXiv",
+      "year": "2026"
+    },
+    "WA5NYHcadZ8C": {
+      "citations": 7,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=8926393931356817900",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:WA5NYHcadZ8C",
+      "title": "Musical Score Understanding Benchmark: Evaluating Large Language Models' Comprehension of Complete Musical Scores",
+      "venue": "ACL",
+      "year": "2026"
+    },
+    "D_sINldO8mEC": {
+      "citations": 6,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=12700368606736293946",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:D_sINldO8mEC",
+      "title": "SemanticShield: LLM-powered audits expose shilling attacks in recommender systems",
+      "venue": "ICASSP",
+      "year": "2026"
+    },
+    "tzM49s52ZIMC": {
+      "citations": 5,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=246290745091606092",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:tzM49s52ZIMC",
+      "title": "HarnessPAI: An evolving harness for physical AI",
+      "venue": "arXiv",
+      "year": "2026"
+    },
+    "pyW8ca7W8N0C": {
+      "citations": 5,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=18181812228308641396",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:pyW8ca7W8N0C",
+      "title": "Evaluate-and-Purify: Fortifying Code Language Models Against Adversarial Attacks Using LLM-as-a-Judge",
+      "venue": "ICIC Oral",
+      "year": "2025"
+    },
+    "9vf0nzSNQJEC": {
+      "citations": 4,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=1557536741533190221",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:9vf0nzSNQJEC",
+      "title": "Infoseeker: A scalable hierarchical parallel agent framework for web information seeking",
+      "venue": "arXiv",
+      "year": "2026"
+    },
+    "BrmTIyaxlBUC": {
+      "citations": 4,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14891241813023038819",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:BrmTIyaxlBUC",
+      "title": "UIS-Digger: Towards Comprehensive Research Agent Systems for Real-world Unindexed Information Seeking",
+      "venue": "ICLR",
+      "year": "2026"
+    },
+    "JoZmwDi-zQgC": {
+      "citations": 2,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15430770695634789075",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:JoZmwDi-zQgC",
+      "title": "DR-MMSearchAgent: Deepening Reasoning in Multimodal Search Agents",
+      "venue": "ICML",
+      "year": "2026"
+    },
+    "LjlpjdlvIbIC": {
+      "citations": 1,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=14824552304973419757",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:LjlpjdlvIbIC",
+      "title": "Unleashing Video Language Models for Fine-grained HRCT Report Generation",
+      "venue": "MICCAI",
+      "year": "2026"
+    },
+    "eq2jaN3J8jMC": {
+      "citations": 1,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=9975208362338019357",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:eq2jaN3J8jMC",
+      "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction",
+      "venue": "arXiv",
+      "year": "2026"
+    },
+    "2KloaMYe4IUC": {
+      "citations": 0,
+      "cited_by_url": null,
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:2KloaMYe4IUC",
+      "title": "A self-learning scientific agent for X-ray diffraction",
+      "venue": "arXiv",
+      "year": "2026"
+    }
+  }
+}

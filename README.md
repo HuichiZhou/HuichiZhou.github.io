@@ -13,18 +13,16 @@ python3 -m http.server 8000
 
 - `data/publications.json`: curated titles, complete authors, venues, paper/code links, topic, and stable Scholar IDs. Preserve the ID when changing a title.
 - `data/scholar.json`: the last verified citation snapshot, source links, and update timestamp.
-- `data/news.json`: dated research announcements and talks displayed above Publications.
 - `templates/index.html`: biography, page structure, teaching, talks, and honors.
+- `templates/logs.html`: the separate Logs page, linked from the top navigation and intentionally empty until the owner writes an entry.
 - `stylesheet.css` and `assets/site.js`: responsive styling, accessible filters, and optional cached GitHub stars.
-- `index.html`: generated homepage; rebuild after changing source data or templates.
+- `index.html` and `logs/index.html`: generated pages; rebuild after changing source data or templates.
 
 The initial import on 27 October 2026 matched all 34 Scholar entries and added the 15 papers absent from the previous website. Existing author contribution markers and publication links were retained. Seven placeholder paper links were replaced with links verified on Scholar; the remaining GEMA-Score entry links to its Scholar record.
 
-## Add a news entry
+## Logs
 
-Add an object to `data/news.json` with `date`, `category`, `title`, `text`, and a `links` array of `{ "label": "Paper", "url": "https://..." }` objects, then rebuild. Dates accept `YYYY-MM-DD` or `YYYY-MM` when only the month is known. Use the event or original announcement date. Entries are sorted newest first; the latest five appear immediately and older entries go under a native, JavaScript-free “More news” disclosure. Links can point to HTTPS pages or existing section anchors such as `#activities`.
-
-The initial entries use the original arXiv submission dates for Memento-Skills (19 March 2026) and Memento (22 August 2025), plus the April 2026 talks already listed in Academic activities. News is curated independently of the automated citation refresh.
+The `/logs/` page contains no posts or sample content. When ready to publish writing, add it inside `#log-entries` in `templates/logs.html` and run the build. Citation refreshes only update Scholar data; they do not create log entries.
 
 ## Citation refresh
 

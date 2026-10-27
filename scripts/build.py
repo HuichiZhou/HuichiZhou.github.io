@@ -1,5 +1,6 @@
 """Render a complete, JavaScript-optional homepage from curated data."""
 import json
+import hashlib
 import re
 from datetime import datetime
 from html import escape
@@ -51,6 +52,7 @@ def render(groups, scholar):
         sections.append(f'''<details class="publication-group" data-topic="{escape(group['id'])}" open><summary><span class="group-number">{number:02}</span><h3>{escape(group['title'])}</h3><span class="group-count">{len(cards)} papers</span><span class="disclosure" aria-hidden="true">−</span></summary><div class="group-papers">{''.join(cards)}</div></details>''')
     updated = datetime.fromisoformat(scholar['updated_at'].replace('Z','+00:00'))
     values = {'PUBLICATIONS':'\n'.join(sections), 'PAPER_COUNT':str(len(seen)), 'PROFILE_URL':escape(scholar['profile_url']), 'CITATIONS':format(scholar['metrics']['citations'],','), 'H_INDEX':str(scholar['metrics']['h_index']), 'UPDATED_ISO':updated.date().isoformat(), 'UPDATED_DATE':f'{updated.day} {updated:%b %Y}', 'TOPIC_OPTIONS':''.join(f'<option value="{escape(g["id"])}">{escape(g["title"])}</option>' for g in groups)}
+    values['STYLE_VERSION'] = hashlib.sha256((ROOT/'stylesheet.css').read_bytes()).hexdigest()[:12]
     return re.sub(r'\{\{([A-Z_]+)\}\}', lambda m: values[m[1]], (ROOT/'templates/index.html').read_text())
 
 def main():

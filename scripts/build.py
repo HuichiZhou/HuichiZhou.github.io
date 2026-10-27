@@ -8,7 +8,36 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-def render(groups, scholar):
+def render_news(entries):
+    rows = []
+    for entry in sorted(entries, key=lambda item: item['date'], reverse=True):
+        date = entry['date']
+        if re.fullmatch(r'\d{4}-\d{2}', date):
+            parsed = datetime.strptime(date, '%Y-%m')
+            date_label = f'{parsed:%b %Y}'
+        elif re.fullmatch(r'\d{4}-\d{2}-\d{2}', date):
+            parsed = datetime.strptime(date, '%Y-%m-%d')
+            date_label = f'{parsed.day} {parsed:%b %Y}'
+        else:
+            raise ValueError('Expected a news date in YYYY-MM or YYYY-MM-DD format')
+        links = []
+        for link in entry.get('links', []):
+            url = link['url']
+            if not (url.startswith('https://') or (url.startswith('#') and len(url) > 1)):
+                raise ValueError('Expected an HTTPS URL or section anchor for a news link')
+            external = ' target="_blank" rel="noopener noreferrer"' if url.startswith('https://') else ''
+            arrow = '↗' if external else '→'
+            links.append(f'<a href="{escape(url)}"{external}>{escape(link["label"])} <span aria-hidden="true">{arrow}</span></a>')
+        rows.append(f'''<li class="news-entry">
+          <div class="news-date"><time datetime="{date}">{date_label}</time><span>{escape(entry['category'])}</span></div>
+          <div class="news-copy"><h3>{escape(entry['title'])}</h3><p>{escape(entry['text'])}</p><div class="news-links">{''.join(links)}</div></div>
+        </li>''')
+    recent = '<ol class="news-list">' + ''.join(rows[:5]) + '</ol>'
+    if len(rows) > 5:
+        recent += f'<details class="news-archive"><summary>More news <span>({len(rows)-5} earlier updates)</span></summary><ol class="news-list" start="6">' + ''.join(rows[5:]) + '</ol></details>'
+    return recent
+
+def render(groups, scholar, news=None):
     sections, seen = [], set()
     for number, group in enumerate(groups, 1):
         cards = []
@@ -53,6 +82,7 @@ def render(groups, scholar):
     updated = datetime.fromisoformat(scholar['updated_at'].replace('Z','+00:00'))
     values = {'PUBLICATIONS':'\n'.join(sections), 'PAPER_COUNT':str(len(seen)), 'PROFILE_URL':escape(scholar['profile_url']), 'CITATIONS':format(scholar['metrics']['citations'],','), 'H_INDEX':str(scholar['metrics']['h_index']), 'UPDATED_ISO':updated.date().isoformat(), 'UPDATED_DATE':f'{updated.day} {updated:%b %Y}', 'TOPIC_OPTIONS':''.join(f'<option value="{escape(g["id"])}">{escape(g["title"])}</option>' for g in groups)}
     values['STYLE_VERSION'] = hashlib.sha256((ROOT/'stylesheet.css').read_bytes()).hexdigest()[:12]
+    values['NEWS'] = render_news(news if news is not None else json.loads((ROOT/'data/news.json').read_text()))
     return re.sub(r'\{\{([A-Z_]+)\}\}', lambda m: values[m[1]], (ROOT/'templates/index.html').read_text())
 
 def main():

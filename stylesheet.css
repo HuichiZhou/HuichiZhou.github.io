@@ -59,13 +59,14 @@ input::placeholder { color:#70756b; }
 .paper:last-child { border-bottom:0; }
 .paper-meta { display:flex; gap:12px; align-items:center; font-size:11px; color:var(--muted); margin-bottom:10px; font-variant-numeric:tabular-nums; }
 .paper-type { text-transform:uppercase; letter-spacing:1px; font-size:9px; font-weight:600; border:1px solid #bdc8b8; border-radius:2px; padding:1px 6px; }
-.citation-link { margin-left:auto; background:var(--soft); border-radius:3px; padding:3px 9px; text-decoration:none; font-size:12px; white-space:nowrap; }
+.paper-links .citation-link { display:inline-flex; align-items:baseline; gap:5px; background:var(--soft); border:1px solid #c6d3c0; border-radius:4px; padding:4px 10px; font-size:13px; white-space:nowrap; }
+.citation-link strong { font-size:17px; font-weight:600; font-variant-numeric:tabular-nums; }
 .citation-link:hover { background:#dce6d7; }
 .paper h3 { font:700 17px/1.6 var(--serif); max-width:930px; margin-bottom:9px; letter-spacing:-.25px; }
 .paper-authors { color:var(--muted); font-size:13px; line-height:1.8; margin-bottom:8px; }
 .paper-authors strong { color:var(--ink); font-weight:600; }
 .paper-venue { color:var(--accent); font-size:12px; font-style:italic; margin-bottom:10px; }
-.paper-links { display:flex; flex-wrap:wrap; gap:19px; }
+.paper-links { display:flex; flex-wrap:wrap; align-items:center; gap:10px 19px; }
 .paper-links a { font-size:12px; font-weight:500; text-decoration:none; }
 .paper-links a:hover { text-decoration:underline; }
 .github-stars { color:var(--muted); font-size:10px; margin-left:4px; }
@@ -91,7 +92,7 @@ footer p { margin:0; } footer span { margin-left:8px; color:var(--muted); } foot
   .metrics{grid-template-columns:repeat(3,1fr);row-gap:18px} .metrics>div{align-items:center} .metrics strong{font-size:28px} .metrics p{grid-column:1/-1;text-align:center} .metrics p br{display:block} .metrics p time{margin-left:4px}
   .publications{padding-top:40px} .section-heading{display:block;margin-bottom:22px} .section-heading>p{margin-top:10px} h2{font-size:28px}
   .publication-tools{grid-template-columns:1fr;gap:12px} input,select{font-size:16px} .group-number{display:none} .publication-group > summary{gap:12px} .publication-group > summary h3{font-size:16px} .group-count{font-size:10px}
-  .group-papers{padding-left:0} .paper{padding:21px 0} .paper h3{font-size:16px} .paper-authors{font-size:12px} .paper-meta{gap:8px} .citation-link{font-size:11px}
+  .group-papers{padding-left:0} .paper{padding:21px 0} .paper h3{font-size:16px} .paper-authors{font-size:12px} .paper-meta{gap:8px}
   .activity-grid{grid-template-columns:1fr;gap:22px} .activities{padding:35px 0} footer{flex-wrap:wrap;font-size:11px} footer p{width:100%}
 }
 @media (prefers-reduced-motion:reduce) { html{scroll-behavior:auto} }

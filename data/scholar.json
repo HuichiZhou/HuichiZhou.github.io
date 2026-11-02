@@ -2,15 +2,15 @@
   "profile_id": "1IJyxpUAAAAJ",
   "profile_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en",
   "source": "Google Scholar",
-  "updated_at": "2026-10-27T13:22:53.959337+00:00",
+  "updated_at": "2026-11-02T15:56:21.708370+00:00",
   "metrics": {
-    "citations": 1642,
+    "citations": 1666,
     "h_index": 15,
     "i10_index": 20
   },
   "publications": {
     "NaGl4SEjCO4C": {
-      "citations": 560,
+      "citations": 561,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=6962079740663458368,10073915427809388856",
       "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:NaGl4SEjCO4C",
       "title": "Mllm-as-a-judge: Assessing multimodal llm-as-a-judge with vision-language benchmark",
@@ -18,7 +18,7 @@
       "year": "2024"
     },
     "1yQoGdGgb4wC": {
-      "citations": 210,
+      "citations": 211,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=10068350687306504898,1910570505246897843,11927026910806902749,11045380747902882218,6440665853798840426",
       "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:1yQoGdGgb4wC",
       "title": "Deep research agents: A systematic examination and roadmap",
@@ -26,7 +26,7 @@
       "year": "2025"
     },
     "4fKUyHm3Qg0C": {
-      "citations": 193,
+      "citations": 198,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=4261672672817894904,7610362148927802502,2103429459148106559,16675377219751685925,3069094403974701058",
       "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:4fKUyHm3Qg0C",
       "title": "Memento: Fine-tuning llm agents without fine-tuning llms",
@@ -34,7 +34,7 @@
       "year": "2025"
     },
     "RGFaLdJalmkC": {
-      "citations": 120,
+      "citations": 123,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=3742911689668882541,14457285365734802457,5162493270128262455",
       "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:RGFaLdJalmkC",
       "title": "TrustRAG: Enhancing Robustness and Trustworthiness in RAG",
@@ -42,7 +42,7 @@
       "year": "2025"
     },
     "3s1wT3WcHBgC": {
-      "citations": 115,
+      "citations": 116,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15703243324512103640,17325237154026099753,2737788061712238283,9953427551268136075,17214249415432904538,6604608959724846020",
       "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:3s1wT3WcHBgC",
       "title": "GUI-World: A Video Benchmark and Dataset for Multimodal GUI-oriented Understanding",
@@ -50,7 +50,7 @@
       "year": "2025"
     },
     "HE397vMXCloC": {
-      "citations": 80,
+      "citations": 90,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16214227508067714820,10822336597868365225,15145044323109063110",
       "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:HE397vMXCloC",
       "title": "Memento-Skills: Let Agents Design Agents",
@@ -81,6 +81,14 @@
       "venue": "NAACL",
       "year": "2025"
     },
+    "WqliGbK-hY8C": {
+      "citations": 23,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11052160175559165553,15694254313582230187,17958213798034738779,10718522188636735456",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:WqliGbK-hY8C",
+      "title": "Univa: Universal video agent towards open-source next-generation video generalist",
+      "venue": "arXiv",
+      "year": "2025"
+    },
     "k_IJM867U9cC": {
       "citations": 22,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=15819825182934195402",
@@ -88,14 +96,6 @@
       "title": "Beyond the Hype: A dispassionate look at vision-language models in medical scenario",
       "venue": "IEEE Transactions on Neural Networks and Learning Systems",
       "year": "2024"
-    },
-    "WqliGbK-hY8C": {
-      "citations": 21,
-      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=11052160175559165553,15694254313582230187,10718522188636735456",
-      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:WqliGbK-hY8C",
-      "title": "Univa: Universal video agent towards open-source next-generation video generalist",
-      "venue": "arXiv",
-      "year": "2025"
     },
     "XiSMed-E-HIC": {
       "citations": 21,
@@ -177,6 +177,14 @@
       "venue": "ACL",
       "year": "2025"
     },
+    "ye4kPcJQO24C": {
+      "citations": 8,
+      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17547278153966761166",
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:ye4kPcJQO24C",
+      "title": "ProMMSearchAgent: A Generalizable Multimodal Search Agent Trained with Process-Oriented Rewards",
+      "venue": "arXiv",
+      "year": "2026"
+    },
     "Mojj43d5GZwC": {
       "citations": 8,
       "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=16690597207285959947",
@@ -192,14 +200,6 @@
       "title": "Poster: Enhancing GNN Robustness for Network Intrusion Detection via Agent-based Analysis",
       "venue": "EuroS&P Poster",
       "year": "2025"
-    },
-    "ye4kPcJQO24C": {
-      "citations": 7,
-      "cited_by_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&oe=ASCII&cites=17547278153966761166",
-      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:ye4kPcJQO24C",
-      "title": "ProMMSearchAgent: A Generalizable Multimodal Search Agent Trained with Process-Oriented Rewards",
-      "venue": "arXiv",
-      "year": "2026"
     },
     "WA5NYHcadZ8C": {
       "citations": 7,
@@ -271,6 +271,20 @@
       "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:eq2jaN3J8jMC",
       "title": "Web2BigTable: A Bi-Level Multi-Agent LLM System for Internet-Scale Information Search and Extraction",
       "venue": "arXiv",
+      "year": "2026"
+    },
+    "-_dYPAW6P2MC": {
+      "title": "Continual Learning Exam: Benchmarking Long-Horizon RSI and Experiential Learning in LLM Agents",
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:-_dYPAW6P2MC",
+      "cited_by_url": null,
+      "year": "2026"
+    },
+    "fEOibwPWpKIC": {
+      "title": "WorldMirror: Agentic Real-to-Sim Generation of Interactive Worlds from In-the-Wild Robot Demonstrations",
+      "citations": 0,
+      "scholar_url": "https://scholar.google.com/citations?user=1IJyxpUAAAAJ&hl=en&view_op=view_citation&citation_for_view=1IJyxpUAAAAJ:fEOibwPWpKIC",
+      "cited_by_url": null,
       "year": "2026"
     },
     "2KloaMYe4IUC": {
